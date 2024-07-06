@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8AD3F1242C395501009E2A85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD3F1232C395501009E2A85 /* AppDelegate.swift */; };
+		8AD3F1262C395501009E2A85 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD3F1252C395501009E2A85 /* SceneDelegate.swift */; };
+		8AD3F1282C395501009E2A85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD3F1272C395501009E2A85 /* ViewController.swift */; };
+		8AD3F12B2C395501009E2A85 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 8AD3F12A2C395501009E2A85 /* Base */; };
+		8AD3F12D2C395502009E2A85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AD3F12C2C395502009E2A85 /* Assets.xcassets */; };
+		8AD3F1302C395502009E2A85 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 8AD3F12F2C395502009E2A85 /* Base */; };
+		8AD3F13B2C395503009E2A85 /* Yassir_Home_TaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD3F13A2C395503009E2A85 /* Yassir_Home_TaskTests.swift */; };
+		8AD3F1452C395503009E2A85 /* Yassir_Home_TaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD3F1442C395503009E2A85 /* Yassir_Home_TaskUITests.swift */; };
+		8AD3F1472C395503009E2A85 /* Yassir_Home_TaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD3F1462C395503009E2A85 /* Yassir_Home_TaskUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8AD3F1372C395503009E2A85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AD3F1182C395501009E2A85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AD3F11F2C395501009E2A85;
+			remoteInfo = "Yassir-Home-Task";
+		};
+		8AD3F1412C395503009E2A85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AD3F1182C395501009E2A85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AD3F11F2C395501009E2A85;
+			remoteInfo = "Yassir-Home-Task";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8AD3F1202C395501009E2A85 /* Yassir-Home-Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yassir-Home-Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AD3F1232C395501009E2A85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8AD3F1252C395501009E2A85 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8AD3F1272C395501009E2A85 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8AD3F12A2C395501009E2A85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8AD3F12C2C395502009E2A85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8AD3F12F2C395502009E2A85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8AD3F1312C395502009E2A85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AD3F1362C395503009E2A85 /* Yassir-Home-TaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Yassir-Home-TaskTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AD3F13A2C395503009E2A85 /* Yassir_Home_TaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yassir_Home_TaskTests.swift; sourceTree = "<group>"; };
+		8AD3F1402C395503009E2A85 /* Yassir-Home-TaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Yassir-Home-TaskUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AD3F1442C395503009E2A85 /* Yassir_Home_TaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yassir_Home_TaskUITests.swift; sourceTree = "<group>"; };
+		8AD3F1462C395503009E2A85 /* Yassir_Home_TaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yassir_Home_TaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8AD3F11D2C395501009E2A85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AD3F1332C395503009E2A85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AD3F13D2C395503009E2A85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8AD3F1172C395501009E2A85 = {
+			isa = PBXGroup;
+			children = (
+				8AD3F1222C395501009E2A85 /* Yassir-Home-Task */,
+				8AD3F1392C395503009E2A85 /* Yassir-Home-TaskTests */,
+				8AD3F1432C395503009E2A85 /* Yassir-Home-TaskUITests */,
+				8AD3F1212C395501009E2A85 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8AD3F1212C395501009E2A85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8AD3F1202C395501009E2A85 /* Yassir-Home-Task.app */,
+				8AD3F1362C395503009E2A85 /* Yassir-Home-TaskTests.xctest */,
+				8AD3F1402C395503009E2A85 /* Yassir-Home-TaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8AD3F1222C395501009E2A85 /* Yassir-Home-Task */ = {
+			isa = PBXGroup;
+			children = (
+				8AD3F1232C395501009E2A85 /* AppDelegate.swift */,
+				8AD3F1252C395501009E2A85 /* SceneDelegate.swift */,
+				8AD3F1272C395501009E2A85 /* ViewController.swift */,
+				8AD3F1292C395501009E2A85 /* Main.storyboard */,
+				8AD3F12C2C395502009E2A85 /* Assets.xcassets */,
+				8AD3F12E2C395502009E2A85 /* LaunchScreen.storyboard */,
+				8AD3F1312C395502009E2A85 /* Info.plist */,
+			);
+			path = "Yassir-Home-Task";
+			sourceTree = "<group>";
+		};
+		8AD3F1392C395503009E2A85 /* Yassir-Home-TaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				8AD3F13A2C395503009E2A85 /* Yassir_Home_TaskTests.swift */,
+			);
+			path = "Yassir-Home-TaskTests";
+			sourceTree = "<group>";
+		};
+		8AD3F1432C395503009E2A85 /* Yassir-Home-TaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8AD3F1442C395503009E2A85 /* Yassir_Home_TaskUITests.swift */,
+				8AD3F1462C395503009E2A85 /* Yassir_Home_TaskUITestsLaunchTests.swift */,
+			);
+			path = "Yassir-Home-TaskUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8AD3F11F2C395501009E2A85 /* Yassir-Home-Task */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AD3F14A2C395503009E2A85 /* Build configuration list for PBXNativeTarget "Yassir-Home-Task" */;
+			buildPhases = (
+				8AD3F11C2C395501009E2A85 /* Sources */,
+				8AD3F11D2C395501009E2A85 /* Frameworks */,
+				8AD3F11E2C395501009E2A85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Yassir-Home-Task";
+			productName = "Yassir-Home-Task";
+			productReference = 8AD3F1202C395501009E2A85 /* Yassir-Home-Task.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8AD3F1352C395503009E2A85 /* Yassir-Home-TaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AD3F14D2C395503009E2A85 /* Build configuration list for PBXNativeTarget "Yassir-Home-TaskTests" */;
+			buildPhases = (
+				8AD3F1322C395503009E2A85 /* Sources */,
+				8AD3F1332C395503009E2A85 /* Frameworks */,
+				8AD3F1342C395503009E2A85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AD3F1382C395503009E2A85 /* PBXTargetDependency */,
+			);
+			name = "Yassir-Home-TaskTests";
+			productName = "Yassir-Home-TaskTests";
+			productReference = 8AD3F1362C395503009E2A85 /* Yassir-Home-TaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8AD3F13F2C395503009E2A85 /* Yassir-Home-TaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AD3F1502C395503009E2A85 /* Build configuration list for PBXNativeTarget "Yassir-Home-TaskUITests" */;
+			buildPhases = (
+				8AD3F13C2C395503009E2A85 /* Sources */,
+				8AD3F13D2C395503009E2A85 /* Frameworks */,
+				8AD3F13E2C395503009E2A85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AD3F1422C395503009E2A85 /* PBXTargetDependency */,
+			);
+			name = "Yassir-Home-TaskUITests";
+			productName = "Yassir-Home-TaskUITests";
+			productReference = 8AD3F1402C395503009E2A85 /* Yassir-Home-TaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8AD3F1182C395501009E2A85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					8AD3F11F2C395501009E2A85 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					8AD3F1352C395503009E2A85 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 8AD3F11F2C395501009E2A85;
+					};
+					8AD3F13F2C395503009E2A85 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 8AD3F11F2C395501009E2A85;
+					};
+				};
+			};
+			buildConfigurationList = 8AD3F11B2C395501009E2A85 /* Build configuration list for PBXProject "Yassir-Home-Task" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8AD3F1172C395501009E2A85;
+			productRefGroup = 8AD3F1212C395501009E2A85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8AD3F11F2C395501009E2A85 /* Yassir-Home-Task */,
+				8AD3F1352C395503009E2A85 /* Yassir-Home-TaskTests */,
+				8AD3F13F2C395503009E2A85 /* Yassir-Home-TaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8AD3F11E2C395501009E2A85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AD3F12D2C395502009E2A85 /* Assets.xcassets in Resources */,
+				8AD3F1302C395502009E2A85 /* Base in Resources */,
+				8AD3F12B2C395501009E2A85 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AD3F1342C395503009E2A85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AD3F13E2C395503009E2A85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8AD3F11C2C395501009E2A85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AD3F1282C395501009E2A85 /* ViewController.swift in Sources */,
+				8AD3F1242C395501009E2A85 /* AppDelegate.swift in Sources */,
+				8AD3F1262C395501009E2A85 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AD3F1322C395503009E2A85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AD3F13B2C395503009E2A85 /* Yassir_Home_TaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AD3F13C2C395503009E2A85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AD3F1452C395503009E2A85 /* Yassir_Home_TaskUITests.swift in Sources */,
+				8AD3F1472C395503009E2A85 /* Yassir_Home_TaskUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8AD3F1382C395503009E2A85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8AD3F11F2C395501009E2A85 /* Yassir-Home-Task */;
+			targetProxy = 8AD3F1372C395503009E2A85 /* PBXContainerItemProxy */;
+		};
+		8AD3F1422C395503009E2A85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8AD3F11F2C395501009E2A85 /* Yassir-Home-Task */;
+			targetProxy = 8AD3F1412C395503009E2A85 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8AD3F1292C395501009E2A85 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AD3F12A2C395501009E2A85 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8AD3F12E2C395502009E2A85 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AD3F12F2C395502009E2A85 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8AD3F1482C395503009E2A85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8AD3F1492C395503009E2A85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8AD3F14B2C395503009E2A85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JSW5LL9TT9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Yassir-Home-Task/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Karim.Yassir-Home-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8AD3F14C2C395503009E2A85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JSW5LL9TT9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Yassir-Home-Task/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Karim.Yassir-Home-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8AD3F14E2C395503009E2A85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JSW5LL9TT9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Karim.Yassir-Home-TaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yassir-Home-Task.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Yassir-Home-Task";
+			};
+			name = Debug;
+		};
+		8AD3F14F2C395503009E2A85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JSW5LL9TT9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Karim.Yassir-Home-TaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yassir-Home-Task.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Yassir-Home-Task";
+			};
+			name = Release;
+		};
+		8AD3F1512C395503009E2A85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JSW5LL9TT9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Karim.Yassir-Home-TaskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Yassir-Home-Task";
+			};
+			name = Debug;
+		};
+		8AD3F1522C395503009E2A85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JSW5LL9TT9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Karim.Yassir-Home-TaskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Yassir-Home-Task";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8AD3F11B2C395501009E2A85 /* Build configuration list for PBXProject "Yassir-Home-Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AD3F1482C395503009E2A85 /* Debug */,
+				8AD3F1492C395503009E2A85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AD3F14A2C395503009E2A85 /* Build configuration list for PBXNativeTarget "Yassir-Home-Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AD3F14B2C395503009E2A85 /* Debug */,
+				8AD3F14C2C395503009E2A85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AD3F14D2C395503009E2A85 /* Build configuration list for PBXNativeTarget "Yassir-Home-TaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AD3F14E2C395503009E2A85 /* Debug */,
+				8AD3F14F2C395503009E2A85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AD3F1502C395503009E2A85 /* Build configuration list for PBXNativeTarget "Yassir-Home-TaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AD3F1512C395503009E2A85 /* Debug */,
+				8AD3F1522C395503009E2A85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8AD3F1182C395501009E2A85 /* Project object */;
+}
