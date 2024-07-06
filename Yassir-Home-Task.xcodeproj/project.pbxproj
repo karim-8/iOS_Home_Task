@@ -99,13 +99,13 @@
 		8AD3F1222C395501009E2A85 /* Yassir-Home-Task */ = {
 			isa = PBXGroup;
 			children = (
-				8AD3F1232C395501009E2A85 /* AppDelegate.swift */,
-				8AD3F1252C395501009E2A85 /* SceneDelegate.swift */,
-				8AD3F1272C395501009E2A85 /* ViewController.swift */,
-				8AD3F1292C395501009E2A85 /* Main.storyboard */,
-				8AD3F12C2C395502009E2A85 /* Assets.xcassets */,
-				8AD3F12E2C395502009E2A85 /* LaunchScreen.storyboard */,
-				8AD3F1312C395502009E2A85 /* Info.plist */,
+				8AD3F1592C3974EC009E2A85 /* Features */,
+				8AD3F1582C3974D7009E2A85 /* Configurations */,
+				8AD3F1572C3974D1009E2A85 /* Core */,
+				8AD3F1562C3974B1009E2A85 /* Data Models */,
+				8AD3F1552C3974A6009E2A85 /* Extenstions */,
+				8AD3F1542C39749D009E2A85 /* Helpers */,
+				8AD3F1532C397492009E2A85 /* Resources */,
 			);
 			path = "Yassir-Home-Task";
 			sourceTree = "<group>";
@@ -125,6 +125,78 @@
 				8AD3F1462C395503009E2A85 /* Yassir_Home_TaskUITestsLaunchTests.swift */,
 			);
 			path = "Yassir-Home-TaskUITests";
+			sourceTree = "<group>";
+		};
+		8AD3F1532C397492009E2A85 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8AD3F15A2C397773009E2A85 /* Storyboards */,
+				8AD3F12C2C395502009E2A85 /* Assets.xcassets */,
+				8AD3F12E2C395502009E2A85 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8AD3F1542C39749D009E2A85 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		8AD3F1552C3974A6009E2A85 /* Extenstions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extenstions;
+			sourceTree = "<group>";
+		};
+		8AD3F1562C3974B1009E2A85 /* Data Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Data Models";
+			sourceTree = "<group>";
+		};
+		8AD3F1572C3974D1009E2A85 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				8AD3F1232C395501009E2A85 /* AppDelegate.swift */,
+				8AD3F1252C395501009E2A85 /* SceneDelegate.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		8AD3F1582C3974D7009E2A85 /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				8AD3F1312C395502009E2A85 /* Info.plist */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		8AD3F1592C3974EC009E2A85 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				8AD3F15B2C39778A009E2A85 /* Splash Screen */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		8AD3F15A2C397773009E2A85 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				8AD3F1292C395501009E2A85 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		8AD3F15B2C39778A009E2A85 /* Splash Screen */ = {
+			isa = PBXGroup;
+			children = (
+				8AD3F1272C395501009E2A85 /* ViewController.swift */,
+			);
+			path = "Splash Screen";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -444,7 +516,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JSW5LL9TT9;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Yassir-Home-Task/Info.plist";
+				INFOPLIST_FILE = "Yassir-Home-Task/Configurations/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -471,7 +543,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JSW5LL9TT9;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Yassir-Home-Task/Info.plist";
+				INFOPLIST_FILE = "Yassir-Home-Task/Configurations/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
