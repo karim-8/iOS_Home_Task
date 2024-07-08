@@ -18,10 +18,10 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rsp-R4-5B6">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="133"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="123"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yassir_logo" translatesAutoresizingMaskIntoConstraints="NO" id="U8H-BG-0v8">
-                                <rect key="frame" x="15" y="15" width="60" height="103"/>
+                                <rect key="frame" x="15" y="15" width="60" height="93"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="60" id="FmN-ri-BMd"/>
                                 </constraints>
@@ -55,7 +55,7 @@
                 </subviews>
                 <constraints>
                     <constraint firstItem="Rsp-R4-5B6" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="5rZ-DF-twm"/>
-                    <constraint firstAttribute="bottom" secondItem="Rsp-R4-5B6" secondAttribute="bottom" id="acS-jC-cGH"/>
+                    <constraint firstAttribute="bottom" secondItem="Rsp-R4-5B6" secondAttribute="bottom" constant="10" id="acS-jC-cGH"/>
                     <constraint firstItem="Rsp-R4-5B6" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="i7S-4F-MSw"/>
                     <constraint firstAttribute="trailing" secondItem="Rsp-R4-5B6" secondAttribute="trailing" id="yvr-em-PGd"/>
                 </constraints>

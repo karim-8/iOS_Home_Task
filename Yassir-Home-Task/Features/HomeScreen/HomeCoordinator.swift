@@ -7,6 +7,6 @@
 
 import Foundation
 
-class ListHomeCoordinator {
+class HomeCoordinator {
     
 }

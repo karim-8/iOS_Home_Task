@@ -15,16 +15,16 @@ protocol SplashScreenCoordinatorProtocol {
 class SplashScreenCoordinator: SplashScreenCoordinatorProtocol {
     
     //MARK:- PROPERTIES
-    let listHomeCoordinator = ListHomeCoordinator()
+    let listHomeCoordinator = HomeCoordinator()
     
     //MARK:- NAVIGATE TO
     func navigateTo(view: UIViewController) {
         
-        let viewModel: ListHomeViewModel =
-        ListHomeViewModel(coordinator: listHomeCoordinator)
+        let viewModel: HomeViewModel =
+        HomeViewModel(coordinator: listHomeCoordinator)
         
         //Instiantiate The Storyboard
-        let listHomeViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "home") as? ListHomeViewController
+        let listHomeViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "home") as? HomeViewController
         
         listHomeViewController?.viewModel = viewModel
         

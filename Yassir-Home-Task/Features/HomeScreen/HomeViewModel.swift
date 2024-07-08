@@ -7,12 +7,12 @@
 
 import Foundation
 
-class ListHomeViewModel {
+class HomeViewModel {
     
-    private var coordinator: ListHomeCoordinator?
+    private var coordinator: HomeCoordinator?
     
     //MARK:- INIT
-    init(coordinator: ListHomeCoordinator) {
+    init(coordinator: HomeCoordinator) {
         self.coordinator = coordinator
     }
 }

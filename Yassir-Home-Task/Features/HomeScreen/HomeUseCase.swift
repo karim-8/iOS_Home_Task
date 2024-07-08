@@ -6,6 +6,6 @@
 //
 
 import Foundation
-class ListHomeUseCase {
+class HomeUseCase {
     
 }

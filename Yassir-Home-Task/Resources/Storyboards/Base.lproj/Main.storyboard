@@ -44,7 +44,7 @@
         <!--Characters-->
         <scene sceneID="CbQ-yS-P1P">
             <objects>
-                <viewController storyboardIdentifier="home" id="igh-uq-5Xd" customClass="ListHomeViewController" customModule="Yassir_Task" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="home" id="igh-uq-5Xd" customClass="HomeViewController" customModule="Yassir_Task" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="JIh-7v-boP">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
