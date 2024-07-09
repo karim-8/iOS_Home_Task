@@ -43,7 +43,7 @@ class HomeViewController: UIViewController {
         filtersCollectionView.collectionViewLayout = layout
         layout.scrollDirection = .horizontal
         filtersCollectionView.showsHorizontalScrollIndicator = false
-        // Spacing Between Collection Cell
+        // Spacing Between Collectioncell
         layout.minimumInteritemSpacing = 5
         layout.minimumLineSpacing = 5
     }
@@ -54,6 +54,5 @@ class HomeViewController: UIViewController {
         charactersTableView.separatorStyle = .none
         charactersTableView.delegate = self
         charactersTableView.dataSource = self
-        
     }
 }

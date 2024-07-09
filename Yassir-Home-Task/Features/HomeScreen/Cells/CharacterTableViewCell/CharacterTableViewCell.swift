@@ -50,6 +50,7 @@ class CharacterTableViewCell: UITableViewCell {
 
         // Character Image radius
         characterImage.layer.cornerRadius = 10.0
+        
     }
 
     public func configure(with imageName: String, imageType: String) {

@@ -14,6 +14,7 @@
 		8A11415D2C3C387A004E7497 /* CharacterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A11415A2C3C387A004E7497 /* CharacterTableViewCell.swift */; };
 		8A11415F2C3C5B71004E7497 /* HomeViewController+UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A11415E2C3C5B71004E7497 /* HomeViewController+UITableView.swift */; };
 		8A1141612C3C5BC7004E7497 /* HomeViewController+UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1141602C3C5BC7004E7497 /* HomeViewController+UICollectionView.swift */; };
+		8A1141642C3D1E0F004E7497 /* DetailedCharacterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1141632C3D1E0F004E7497 /* DetailedCharacterScreen.swift */; };
 		8AD3F1242C395501009E2A85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD3F1232C395501009E2A85 /* AppDelegate.swift */; };
 		8AD3F1262C395501009E2A85 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD3F1252C395501009E2A85 /* SceneDelegate.swift */; };
 		8AD3F1282C395501009E2A85 /* SplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD3F1272C395501009E2A85 /* SplashScreenViewController.swift */; };
@@ -58,6 +59,7 @@
 		8A11415B2C3C387A004E7497 /* CharacterTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CharacterTableViewCell.xib; sourceTree = "<group>"; };
 		8A11415E2C3C5B71004E7497 /* HomeViewController+UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeViewController+UITableView.swift"; sourceTree = "<group>"; };
 		8A1141602C3C5BC7004E7497 /* HomeViewController+UICollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeViewController+UICollectionView.swift"; sourceTree = "<group>"; };
+		8A1141632C3D1E0F004E7497 /* DetailedCharacterScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedCharacterScreen.swift; sourceTree = "<group>"; };
 		8AD3F1202C395501009E2A85 /* Yassir Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yassir Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AD3F1232C395501009E2A85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8AD3F1252C395501009E2A85 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -112,6 +114,14 @@
 				8A11415B2C3C387A004E7497 /* CharacterTableViewCell.xib */,
 			);
 			path = CharacterTableViewCell;
+			sourceTree = "<group>";
+		};
+		8A1141622C3D1DD2004E7497 /* Character Screen */ = {
+			isa = PBXGroup;
+			children = (
+				8A1141632C3D1E0F004E7497 /* DetailedCharacterScreen.swift */,
+			);
+			path = "Character Screen";
 			sourceTree = "<group>";
 		};
 		8AD3F1172C395501009E2A85 = {
@@ -219,6 +229,7 @@
 		8AD3F1592C3974EC009E2A85 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				8A1141622C3D1DD2004E7497 /* Character Screen */,
 				8AD3F15B2C39778A009E2A85 /* Splash Screen */,
 				8AD3F1602C399D7B009E2A85 /* HomeScreen */,
 			);
@@ -414,6 +425,7 @@
 				8AD3F15D2C3979F8009E2A85 /* SplashScreenViewModel.swift in Sources */,
 				8A11415F2C3C5B71004E7497 /* HomeViewController+UITableView.swift in Sources */,
 				8AD3F1242C395501009E2A85 /* AppDelegate.swift in Sources */,
+				8A1141642C3D1E0F004E7497 /* DetailedCharacterScreen.swift in Sources */,
 				8AD3F16C2C3AFDCD009E2A85 /* NavigationBarHelper.swift in Sources */,
 				8A1141582C3B26F9004E7497 /* FilterCollectionViewCell.swift in Sources */,
 				8AD3F1262C395501009E2A85 /* SceneDelegate.swift in Sources */,
