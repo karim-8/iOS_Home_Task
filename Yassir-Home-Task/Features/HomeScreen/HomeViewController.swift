@@ -7,6 +7,26 @@
 
 import UIKit
 
+enum urlEndPoint: String {
+    case baseUrl = "https://rickandmortyapi.com/api/character/"
+}
+
+struct request: RequestProtocol {
+    let baseUrl: String?
+    let qParameters: String?
+
+    init(url: String, param: String){
+        self.baseUrl = url
+        self.qParameters = param
+    }
+    var url: URL {
+        return URL(string: baseUrl! + qParameters!)!
+    }
+
+
+}
+
+
 class HomeViewController: UIViewController {
 
     //MARK:- OUTLETS
@@ -18,6 +38,14 @@ class HomeViewController: UIViewController {
     var filtersItemsArray = ["Alive","Dead","Unknown"]
     var charactersNames = ["Zephyr", "Aurora", "Throne", "Lyra"]
     var charactersNamesDesc = ["Elf", "Human", "Dwarf", "Faerie"]
+    var coordinator = HomeCoordinator()
+    var currentPage = 1
+
+
+
+   /// Todo update
+    var charactersDataInfo = [ResultsDataModel]()
+
 
     
     //MARK:- VIEW DID LOAD
@@ -25,6 +53,7 @@ class HomeViewController: UIViewController {
         navBarSetup()
         collectionViewSetup()
         characterTableViewSetup()
+        getUsersData(pageNumber: currentPage)
     }
 
     //MARK:- NAVIGATION BAR SETUP
@@ -54,5 +83,42 @@ class HomeViewController: UIViewController {
         charactersTableView.separatorStyle = .none
         charactersTableView.delegate = self
         charactersTableView.dataSource = self
+    }
+    // Todo:- Add more data to the current array and move the logic to View Model
+        //MARK:- GET USER DATA
+    func getUsersData(pageNumber: Int) {
+        let parameters = "?page=\(pageNumber)"
+        //let parameters = ""
+        let fullUrl = request(url: urlEndPoint.baseUrl.rawValue, param: parameters)
+
+
+        NetworkClient().get(url: fullUrl) { [weak self] result in
+            switch result {
+            case .success(let data):
+                print("Data from the view model is.....\(data)")
+                self?.decodeJsonResult(jsonData: data)
+            case .failure(let error):
+                print("Error while fetchhing data...\(error)")
+            }
+        }
+    }
+
+        //MARK:- DECODE JSON RESULT
+    private func decodeJsonResult(jsonData: Data) {
+        let decoder = JSONDecoder()
+        decoder.keyDecodingStrategy = .convertFromSnakeCase
+        decoder.dateDecodingStrategy = .secondsSince1970
+
+        let userdata = try? decoder.decode(CharactersDataModel.self, from: jsonData)
+        if let data = userdata {
+            self.charactersDataInfo = data.results ?? []
+            charactersTableView.reloadData()
+            print(data)
+        }
+    }
+
+        //////////////////////////////////////////////////////////////////////////////////////
+    deinit {
+        print("I have been called")
     }
 }
