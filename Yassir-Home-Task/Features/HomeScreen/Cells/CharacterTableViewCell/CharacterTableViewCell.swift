@@ -14,6 +14,8 @@ class CharacterTableViewCell: UITableViewCell {
     @IBOutlet weak var characterDescription: UILabel!
     @IBOutlet weak var characterBackgroundView: UIView!
 
+    var cellIndexValue = 0
+
     static var identifier = "CharacterTableViewCell"
 
     override func awakeFromNib() {
@@ -52,17 +54,24 @@ class CharacterTableViewCell: UITableViewCell {
         characterImage.layer.cornerRadius = 10.0
         
     }
+    override func prepareForReuse() {
+        //Default Cell state
+        characterBackgroundView.backgroundColor = . white
+        characterBackgroundView.layer.borderWidth = 1
+    }
 
-    public func configure(with imageName: String, imageType: String, imageLink: String?) {
+    public func configure(with imageName: String, imageType: String, imageLink: String?, cellIndex: Int, status: String) {
         characterName.text = imageName
         characterDescription.text = imageType
+        cellIndexValue = cellIndex
 
-        if(characterDescription.text == "Human") {
+        print("cel index is....\(cellIndex)")
+        if( cellIndexValue == 4) {
             characterBackgroundView.backgroundColor =
             UIColor(red: 235/255.0, green: 246/255.0, blue: 251/255.0, alpha: 1)
             characterBackgroundView.layer.borderWidth = 0
         }
-        if(characterDescription.text == "Dwarf") {
+        if(status == "Dead" || cellIndex == 3) {
             characterBackgroundView.backgroundColor =
             UIColor(red: 251/255.0, green: 231/255.0, blue: 235/255.0, alpha: 1)
             characterBackgroundView.layer.borderWidth = 0
@@ -80,13 +89,3 @@ class CharacterTableViewCell: UITableViewCell {
         return UINib(nibName: "CharacterTableViewCell", bundle: nil)
     }
 }
-
-
-/*
- let url = URL(string: "IMAGE URL HERE")
- let data = try? Data(contentsOf: url)
-
- if let imageData = data {
- let image = UIImage(data: imageData)
- }
- */

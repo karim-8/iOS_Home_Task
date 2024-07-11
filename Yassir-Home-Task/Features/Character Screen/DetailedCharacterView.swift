@@ -10,20 +10,29 @@
 import SwiftUI
 
 struct ContentView: View {
+
+    // MARK:- VARIABLES
+    @EnvironmentObject private var characterDetails: CharacterDetailedObject
+    @Environment(\.presentationMode) var presentationMode
+
     var body: some View {
             NavigationView {
                 VStack{
                     // Vstack contains the image and the back button
                     VStack {
-                        Image("yassir_logo")
-                            .resizable()
+                        AsyncImage(url: URL(string: characterDetails.dataPerCharacter.image!)) { image in
+                            image.resizable()
+                        } placeholder: {
+                            Image("yassir_logo")
+                        }
                             .cornerRadius(30)
                             .aspectRatio(contentMode: .fill)
                             .frame(height: 400)
                             .frame(maxWidth: .infinity)
                             .edgesIgnoringSafeArea(.all)
                         Button(action: {
-                                // Action
+                            // Back to the home main screen
+                            presentationMode.wrappedValue.dismiss()
                         }) {
                             HStack {
                                 Image(systemName: "arrow.backward")
@@ -32,7 +41,7 @@ struct ContentView: View {
                                     .padding(10)
                                     .background(Color.white)
                                     .clipShape(Circle())
-                                    .padding(.leading, 10)
+                                    .padding(.leading, 5)
                             }
                         }
                         .padding(.top, 10)
@@ -51,44 +60,36 @@ struct ContentView: View {
                       .cornerRadius(30)
                       .edgesIgnoringSafeArea(.all)
 
+                    // Character Details
                     HStack {
                         VStack(alignment: .leading) {
                             HStack{
-                                Text("Zephyr")
+                                Text(characterDetails.dataPerCharacter.name ?? "Yassir")
                                     .font(.system(size: 20)).bold()
-
                                 Spacer()
-
-                                CircleInRectangleTextView(text: "Status").padding([.trailing], 20)
+                                CircleInRectangleTextView(text: characterDetails.dataPerCharacter.status ?? "Status").padding([.trailing], 20)
                             }
-
                             HStack {
-                                Text("Elf")
+                                Text(characterDetails.dataPerCharacter.species ?? "Elf")
                                     .font(.system(size: 16))
                                     .foregroundColor(Color(red: 90/255.0, green: 90/255.0, blue: 90/255.0))
 
-                                Text(".  Male")
+                                Text(".  \(characterDetails.dataPerCharacter.gender ?? ".  Male")")
                                     .font(.system(size: 16))
                                     .foregroundColor(.gray)
                             }
-
                             HStack {
                                 Text("Location : ")
                                     .font(.system(size: 16))
                                     .foregroundColor(.black).bold()
 
-                                Text("Earth")
+                                Text(characterDetails.dataPerCharacter.location?.name ?? "Earth")
                                     .font(.system(size: 16))
                                     .foregroundColor(Color(red: 90/255.0, green: 90/255.0, blue: 90/255.0))
                             }.padding(.top, 15)
-
-
                         }
-
                         Spacer()
-
                     }
-
                     .background(Color.white)
                     .padding(.horizontal)
                     Spacer()
@@ -102,7 +103,7 @@ struct ContentView: View {
 }
 
 
-
+// MARK:- CIRCLE RECTANGLE TEXT VIEW
 struct CircleInRectangleTextView: View {
     let text: String
     var body: some View {
@@ -114,7 +115,7 @@ struct CircleInRectangleTextView: View {
                 .overlay(
                     Text(text)
                         .foregroundColor(.black).font(.system(size: 12))
-                )
+            )
         }
     }
 }
