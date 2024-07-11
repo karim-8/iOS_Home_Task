@@ -1,14 +1,13 @@
 //
-//  Yassir_Task_UITests.swift
-//  Yassir_Task_UITests
+//  yassir_ios_home_taskUITests.swift
+//  yassir_ios_home_taskUITests
 //
-//  Created by Karim Soliman on 11/07/2024.
+//  Created by Karim Soliman on 12/07/2024.
 //
 
 import XCTest
-@testable import Yassir_Task
 
-final class Yassir_Task_UITests: XCTestCase {
+final class yassir_ios_home_taskUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -25,23 +24,26 @@ final class Yassir_Task_UITests: XCTestCase {
 
     func testExample() throws {
 
-        let app = XCUIApplication()
-        let _ = XCTWaiter.wait(for: [XCTestExpectation(description: "")], timeout: 2.0)
-
-        app.navigationBars["Characters"].staticTexts["Characters"].tap()
         
+        let app = XCUIApplication()
+        app.launch()
+
+        // Wait for the timeout
+       // waitForExpectations(timeout: 5, handler: nil)
+
         let tablesQuery = app.tables
         tablesQuery.children(matching: .cell).element(boundBy: 0).children(matching: .other).element(boundBy: 0).tap()
         app.buttons["arrow.backward"].tap()
         
         let collectionViewsQuery = app.collectionViews
-        let cellsQuery = collectionViewsQuery.cells
-        cellsQuery.otherElements.containing(.staticText, identifier:"Alive").element.tap()
-        cellsQuery.otherElements.containing(.staticText, identifier:"unknown").element.tap()
-        cellsQuery.otherElements.containing(.staticText, identifier:"Dead").element.tap()
+        collectionViewsQuery/*@START_MENU_TOKEN@*/.staticTexts["Dead"]/*[[".cells.staticTexts[\"Dead\"]",".staticTexts[\"Dead\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
+        collectionViewsQuery/*@START_MENU_TOKEN@*/.staticTexts["unknown"]/*[[".cells.staticTexts[\"unknown\"]",".staticTexts[\"unknown\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
+        collectionViewsQuery.cells.otherElements.containing(.staticText, identifier:"Alive").element.tap()
         collectionViewsQuery/*@START_MENU_TOKEN@*/.staticTexts["Reset"]/*[[".cells.staticTexts[\"Reset\"]",".staticTexts[\"Reset\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
-        tablesQuery.children(matching: .cell).element(boundBy: 4).children(matching: .other).element(boundBy: 0).swipeUp()
-        tablesQuery.children(matching: .cell).element(boundBy: 10).children(matching: .other).element(boundBy: 0).swipeUp()
+        
+        let element = app.windows.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element
+        element.swipeUp()
+
     }
 
     func testLaunchPerformance() throws {

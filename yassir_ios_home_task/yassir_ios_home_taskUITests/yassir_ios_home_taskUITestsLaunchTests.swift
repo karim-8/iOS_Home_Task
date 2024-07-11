@@ -1,15 +1,13 @@
 //
-//  Yassir_Task_UITestsLaunchTests.swift
-//  Yassir_Task_UITests
+//  yassir_ios_home_taskUITestsLaunchTests.swift
+//  yassir_ios_home_taskUITests
 //
-//  Created by Karim Soliman on 11/07/2024.
+//  Created by Karim Soliman on 12/07/2024.
 //
 
 import XCTest
-@testable import Yassir_Task
 
-
-final class Yassir_Task_UITestsLaunchTests: XCTestCase {
+final class yassir_ios_home_taskUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
