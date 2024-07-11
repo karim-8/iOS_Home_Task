@@ -40,11 +40,13 @@ class HomeViewController: UIViewController {
     var charactersNamesDesc = ["Elf", "Human", "Dwarf", "Faerie"]
     var coordinator = HomeCoordinator()
     var currentPage = 1
+    var isPaginating = false
 
 
 
    /// Todo update
     var charactersDataInfo = [ResultsDataModel]()
+    var spinner = UIActivityIndicatorView()
 
 
     
@@ -88,19 +90,41 @@ class HomeViewController: UIViewController {
         //MARK:- GET USER DATA
     func getUsersData(pageNumber: Int) {
         let parameters = "?page=\(pageNumber)"
-        //let parameters = ""
         let fullUrl = request(url: urlEndPoint.baseUrl.rawValue, param: parameters)
 
+       /// if (isPaginating == false) {
 
-        NetworkClient().get(url: fullUrl) { [weak self] result in
-            switch result {
-            case .success(let data):
-                print("Data from the view model is.....\(data)")
-                self?.decodeJsonResult(jsonData: data)
-            case .failure(let error):
-                print("Error while fetchhing data...\(error)")
+            spinner.startAnimating()
+            isPaginating = true
+
+            NetworkClient().get(url: fullUrl) { [weak self] result in
+                switch result {
+                case .success(let data):
+                    print("Data from the view model is.....\(data)")
+                    self?.decodeJsonResult(jsonData: data)
+                    self?.isPaginating = false
+
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+                        self?.spinner.stopAnimating()
+                    }
+
+                        //                DispatchQueue.main.async {
+                        //                    self?.spinner.stopAnimating()
+                        //                    self?.spinner.isHidden = true
+                        //                    self?.spinner.hidesWhenStopped = true
+                        //                    self?.charactersTableView.reloadData()
+                        //
+                        //                    self?.view.willRemoveSubview(self!.spinner)
+                        //                }
+                    print("Here 3")
+
+                case .failure(let error):
+                    print("Error while fetchhing data...\(error)")
+                }
             }
-        }
+       // }
+
+
     }
 
         //MARK:- DECODE JSON RESULT
@@ -111,8 +135,12 @@ class HomeViewController: UIViewController {
 
         let userdata = try? decoder.decode(CharactersDataModel.self, from: jsonData)
         if let data = userdata {
-            self.charactersDataInfo = data.results ?? []
-            charactersTableView.reloadData()
+           // self.charactersDataInfo = data.results ?? []
+            self.charactersDataInfo.append(contentsOf: data.results ?? [])
+            DispatchQueue.main.async {
+                self.charactersTableView.reloadData()
+                print("*************************************")
+            }
             print(data)
         }
     }

@@ -26,6 +26,9 @@
 		8A0FA8F52C3E73CF004F2CF5 /* HomeRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0FA8F42C3E73CF004F2CF5 /* HomeRepository.swift */; };
 		8A0FA8F62C3E73CF004F2CF5 /* HomeRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0FA8F42C3E73CF004F2CF5 /* HomeRepository.swift */; };
 		8A0FA8F72C3E73CF004F2CF5 /* HomeRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0FA8F42C3E73CF004F2CF5 /* HomeRepository.swift */; };
+		8A0FA8F92C3FFA08004F2CF5 /* HomeViewController+UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0FA8F82C3FFA08004F2CF5 /* HomeViewController+UIImageView.swift */; };
+		8A0FA8FA2C3FFA08004F2CF5 /* HomeViewController+UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0FA8F82C3FFA08004F2CF5 /* HomeViewController+UIImageView.swift */; };
+		8A0FA8FB2C3FFA08004F2CF5 /* HomeViewController+UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0FA8F82C3FFA08004F2CF5 /* HomeViewController+UIImageView.swift */; };
 		8A1141542C3B2421004E7497 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AD3F1292C395501009E2A85 /* Main.storyboard */; };
 		8A1141572C3B26F9004E7497 /* FilterCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A1141562C3B26F9004E7497 /* FilterCollectionViewCell.xib */; };
 		8A1141582C3B26F9004E7497 /* FilterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1141552C3B26F9004E7497 /* FilterCollectionViewCell.swift */; };
@@ -82,6 +85,7 @@
 		8A0FA8EB2C3E709B004F2CF5 /* LocationDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDataModel.swift; sourceTree = "<group>"; };
 		8A0FA8EF2C3E70B2004F2CF5 /* InfoDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoDataModel.swift; sourceTree = "<group>"; };
 		8A0FA8F42C3E73CF004F2CF5 /* HomeRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRepository.swift; sourceTree = "<group>"; };
+		8A0FA8F82C3FFA08004F2CF5 /* HomeViewController+UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeViewController+UIImageView.swift"; sourceTree = "<group>"; };
 		8A1141552C3B26F9004E7497 /* FilterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterCollectionViewCell.swift; sourceTree = "<group>"; };
 		8A1141562C3B26F9004E7497 /* FilterCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FilterCollectionViewCell.xib; sourceTree = "<group>"; };
 		8A11415A2C3C387A004E7497 /* CharacterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterTableViewCell.swift; sourceTree = "<group>"; };
@@ -242,6 +246,7 @@
 			children = (
 				8A11415E2C3C5B71004E7497 /* HomeViewController+UITableView.swift */,
 				8A1141602C3C5BC7004E7497 /* HomeViewController+UICollectionView.swift */,
+				8A0FA8F82C3FFA08004F2CF5 /* HomeViewController+UIImageView.swift */,
 			);
 			path = Extenstions;
 			sourceTree = "<group>";
@@ -476,6 +481,7 @@
 				8AD3F1282C395501009E2A85 /* SplashScreenViewController.swift in Sources */,
 				8A0FA8EC2C3E709B004F2CF5 /* LocationDataModel.swift in Sources */,
 				8AD3F15D2C3979F8009E2A85 /* SplashScreenViewModel.swift in Sources */,
+				8A0FA8F92C3FFA08004F2CF5 /* HomeViewController+UIImageView.swift in Sources */,
 				8A11415F2C3C5B71004E7497 /* HomeViewController+UITableView.swift in Sources */,
 				8AD3F1242C395501009E2A85 /* AppDelegate.swift in Sources */,
 				8AD3F16C2C3AFDCD009E2A85 /* NavigationBarHelper.swift in Sources */,
@@ -508,6 +514,7 @@
 				8A0FA8E92C3E7077004F2CF5 /* OriginDataModel.swift in Sources */,
 				8A0FA8F12C3E70B2004F2CF5 /* InfoDataModel.swift in Sources */,
 				8AD3F13B2C395503009E2A85 /* Yassir_Home_TaskTests.swift in Sources */,
+				8A0FA8FA2C3FFA08004F2CF5 /* HomeViewController+UIImageView.swift in Sources */,
 				8A0FA8E52C3E7007004F2CF5 /* ResultsDataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -524,6 +531,7 @@
 				8A0FA8E62C3E7007004F2CF5 /* ResultsDataModel.swift in Sources */,
 				8A0FA8EE2C3E709B004F2CF5 /* LocationDataModel.swift in Sources */,
 				8A0FA8E22C3E6EBD004F2CF5 /* CharactersDataModel.swift in Sources */,
+				8A0FA8FB2C3FFA08004F2CF5 /* HomeViewController+UIImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

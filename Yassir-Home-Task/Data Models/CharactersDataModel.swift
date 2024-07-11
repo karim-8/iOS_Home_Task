@@ -23,4 +23,3 @@ struct CharactersDataModel : Codable {
         results = try values.decodeIfPresent([ResultsDataModel].self, forKey: .results)
     }
 }
-

@@ -26,7 +26,7 @@ class NetworkClient {
     //MARK:- GET REQUEST
     func get(url: RequestProtocol, completion: @escaping (Result<Data,Error>)-> ()) {
         let requesturl = URLRequest(url: url.url)
-        isPaginating = true
+       // isPaginating = true
         URLSession.shared.dataTask(with: requesturl) { (data, response, error) in
                 //Error case returned
             if error != nil {
@@ -37,11 +37,13 @@ class NetworkClient {
                 //No Data case
             guard let data = data else {
                 completion(.failure(NetwrokError.noData))
+
                 return
             }
             completion(.success(data))
+           // self.isPaginating = false
+
         }.resume()
-        isPaginating = false
     }
 }
 

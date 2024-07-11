@@ -46,9 +46,14 @@ extension HomeViewController: UICollectionViewDataSource {
 extension HomeViewController: UICollectionViewDelegateFlowLayout {
 
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-
-        let itemWidth: CGFloat = ((collectionView.bounds.size.width)  / CGFloat(3.0))
         return CGSize( width: filtersItemsArray[indexPath.item].size(withAttributes: [NSAttributedString.Key.font : UIFont.systemFont(ofSize: 12)]).width + 25, height: 30)
     }
 }
 
+extension UINavigationController {
+    func popToViewController(ofClass: AnyClass, animated: Bool = true) {
+        if let vc = viewControllers.last(where: { $0.isKind(of: ofClass) }) {
+            popToViewController(vc, animated: animated)
+        }
+    }
+}

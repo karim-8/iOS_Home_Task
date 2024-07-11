@@ -39,117 +39,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "20472025-5A38-4B63-8F01-10BB7AA20B53"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Yassir-Home-Task/Extenstions/HomeViewController+UITableView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "35"
-            endingLineNumber = "35"
-            landmarkName = "tableView(_:didSelectRowAt:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "5FFB4AEF-A389-4824-97A1-336881FC2720"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Yassir-Home-Task/Extenstions/HomeViewController+UITableView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
-            landmarkName = "tableView(_:didSelectRowAt:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "3A077B5C-852D-4B03-A092-14B4A7B6D3D3"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Yassir-Home-Task/Features/HomeScreen/HomeViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "101"
-            endingLineNumber = "101"
-            landmarkName = "getUsersData(pageNumber:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "2E7C336D-7A3C-4381-9ADC-B445086134AB"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Yassir-Home-Task/Features/HomeScreen/HomeViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "113"
-            endingLineNumber = "113"
-            landmarkName = "decodeJsonResult(jsonData:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "2E7C336D-7A3C-4381-9ADC-B445086134AB - d565c32ca628d53d"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Yassir_Task.HomeViewController.decodeJsonResult(jsonData: Foundation.Data) -&gt; ()"
-                  moduleName = "Yassir Task"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/karim/Documents/personal/Yassir%20Task/Yassir-Home-Task/Yassir-Home-Task/Features/HomeScreen/HomeViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "114"
-                  endingLineNumber = "114">
-               </Location>
-               <Location
-                  uuid = "2E7C336D-7A3C-4381-9ADC-B445086134AB - d565c32ca628d53d"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Yassir_Task.HomeViewController.decodeJsonResult(jsonData: Foundation.Data) -&gt; ()"
-                  moduleName = "Yassir Task"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/karim/Documents/personal/Yassir%20Task/Yassir-Home-Task/Yassir-Home-Task/Features/HomeScreen/HomeViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "114"
-                  endingLineNumber = "114">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "B7B3E378-DF60-4CDC-B2AC-A0348ACE4718"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Yassir-Home-Task/Features/HomeScreen/HomeViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "114"
-            endingLineNumber = "114"
-            landmarkName = "decodeJsonResult(jsonData:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "48D44594-B7CA-4537-98ED-5C0E9948111D"
+            uuid = "44091191-21A5-4893-BB73-F2CC20542C1B"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -160,50 +50,20 @@
             endingLineNumber = "95"
             landmarkName = "getUsersData(pageNumber:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "48D44594-B7CA-4537-98ED-5C0E9948111D - 155fa5567a169cce"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Yassir_Task.HomeViewController.getUsersData(type: Swift.String) -&gt; ()"
-                  moduleName = "Yassir Task"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/karim/Documents/personal/Yassir%20Task/Yassir-Home-Task/Yassir-Home-Task/Features/HomeScreen/HomeViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "96"
-                  endingLineNumber = "96">
-               </Location>
-               <Location
-                  uuid = "48D44594-B7CA-4537-98ED-5C0E9948111D - d45d54f423c2ca2d"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Result&lt;Foundation.Data, Swift.Error&gt;) -&gt; () in Yassir_Task.HomeViewController.getUsersData(type: Swift.String) -&gt; ()"
-                  moduleName = "Yassir Task"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/karim/Documents/personal/Yassir%20Task/Yassir-Home-Task/Yassir-Home-Task/Features/HomeScreen/HomeViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "96"
-                  endingLineNumber = "96">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "397D1F1B-DC2D-4FA9-B837-420203AC17E2"
+            uuid = "EAD3235B-C17D-4963-B448-71055B65B083"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Yassir-Home-Task/Features/HomeScreen/HomeViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "98"
-            endingLineNumber = "98"
+            startingLineNumber = "105"
+            endingLineNumber = "105"
             landmarkName = "getUsersData(pageNumber:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -211,31 +71,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "E0536CFA-57D6-4F74-A3EE-0E9F302D5F9F"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Yassir-Home-Task/Features/HomeScreen/HomeViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "112"
-            endingLineNumber = "112"
-            landmarkName = "decodeJsonResult(jsonData:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "F07AA45F-F790-49C9-A981-327C03C31CB0"
+            uuid = "B174ECDC-6D2E-4E0C-A338-E6299B8DE61A"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Yassir-Home-Task/Extenstions/HomeViewController+UITableView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "47"
-            endingLineNumber = "47"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
             landmarkName = "scrollViewDidScroll(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -243,15 +87,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "D5B1D59F-9C91-41ED-A1CA-EA1C2E853223"
+            uuid = "59DE7711-3DE7-48A5-8F99-7798FA3DFC33"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Yassir-Home-Task/Extenstions/HomeViewController+UITableView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "50"
-            endingLineNumber = "50"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
             landmarkName = "scrollViewDidScroll(_:)"
             landmarkType = "7">
          </BreakpointContent>

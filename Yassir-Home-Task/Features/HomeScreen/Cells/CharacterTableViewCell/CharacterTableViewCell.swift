@@ -53,7 +53,7 @@ class CharacterTableViewCell: UITableViewCell {
         
     }
 
-    public func configure(with imageName: String, imageType: String) {
+    public func configure(with imageName: String, imageType: String, imageLink: String?) {
         characterName.text = imageName
         characterDescription.text = imageType
 
@@ -68,6 +68,7 @@ class CharacterTableViewCell: UITableViewCell {
             characterBackgroundView.layer.borderWidth = 0
         }
 
+        self.characterImage.loadImage(urlString: imageLink ?? "")
     }
 
 
@@ -79,3 +80,13 @@ class CharacterTableViewCell: UITableViewCell {
         return UINib(nibName: "CharacterTableViewCell", bundle: nil)
     }
 }
+
+
+/*
+ let url = URL(string: "IMAGE URL HERE")
+ let data = try? Data(contentsOf: url)
+
+ if let imageData = data {
+ let image = UIImage(data: imageData)
+ }
+ */
