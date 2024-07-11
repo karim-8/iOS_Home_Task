@@ -40,6 +40,8 @@ class HomeViewController: UIViewController {
     var currentPage = 1
     var isPaginating = false
     var shouldStopPaginating = false
+    var filterCellSelectedIndex = -1
+    var isFilteredAdded = false
 
 
 
@@ -77,6 +79,7 @@ class HomeViewController: UIViewController {
         filtersCollectionView.collectionViewLayout = layout
         layout.scrollDirection = .horizontal
         filtersCollectionView.showsHorizontalScrollIndicator = false
+
 
         // Spacing Between Collectioncell
         layout.minimumInteritemSpacing = 5
@@ -123,21 +126,29 @@ class HomeViewController: UIViewController {
 
         let userdata = try? decoder.decode(CharactersDataModel.self, from: jsonData)
         if let data = userdata {
-            self.charactersDataInfo.append(contentsOf: data.results ?? [])
 
-          // Looping to get status add send it to collection view
+            self.charactersDataInfo.append(contentsOf: data.results ?? [])
+            self.FilterdCharactersDataInfo =  self.charactersDataInfo
+          // Looping to get status and update them into collection view cells
             if(!self.charactersDataInfo.isEmpty) {
+                //
                 for character in charactersDataInfo {
                     filtersPerStatusArray.append(character.status ?? "")
                 }
-                //Array(Set(array))
+                //
                 filtersPerStatusArray = Array(Set(filtersPerStatusArray))
                 // Adding new cell to reset filters
                 filtersPerStatusArray.append("Reset")
+
+
                 DispatchQueue.main.async {
                     self.charactersTableView.reloadData()
-                    self.filtersCollectionView.reloadData()
+                    if(!self.isFilteredAdded) {
+                        self.filtersCollectionView.reloadData()
+                        self.isFilteredAdded = true
+                    }
                 }
+
             }
         }
     }
@@ -145,7 +156,23 @@ class HomeViewController: UIViewController {
     // Todo:- Filter data based on status
     // Todo:- Seperate in extenstion
     func filterCharacterPerStatus(characterStatus: String) {
+
+       // If a filter is selected before
+        if(filterCellSelectedIndex >= 0){
+            clearFilterData()
+        }
+
         charactersDataInfo = charactersDataInfo.filter{ $0.status == characterStatus}
+        DispatchQueue.main.async {
+            self.charactersTableView.reloadData()
+        }
+    }
+
+    func clearFilterData() {
+         self.charactersDataInfo = self.FilterdCharactersDataInfo
+    }
+
+    func updateMainView() {
         DispatchQueue.main.async {
             self.charactersTableView.reloadData()
         }
