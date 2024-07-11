@@ -40,6 +40,9 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="tableBackgroundColor"/>
+                        <accessibility key="accessibilityConfiguration">
+                            <bool key="isElement" value="YES"/>
+                        </accessibility>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="dGc-aD-ekW" secondAttribute="trailing" id="5Ik-5w-Eyc"/>
                             <constraint firstItem="W6W-zU-bcr" firstAttribute="leading" secondItem="U8H-BG-0v8" secondAttribute="trailing" constant="10" id="8IV-AC-GXP"/>

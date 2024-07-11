@@ -78,40 +78,10 @@
             filePath = "Yassir-Home-Task/Features/HomeScreen/HomeViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "166"
-            endingLineNumber = "166"
+            startingLineNumber = "147"
+            endingLineNumber = "147"
             landmarkName = "filterCharacterPerStatus(characterStatus:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "2D5C859C-D040-4274-ABA0-66CA9E9A4236 - 7c4d9d56efa0335c"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #2 @Swift.MainActor () -&gt; () in Yassir_Task.HomeViewController.filterCharacterPerStatus(characterStatus: Swift.String) -&gt; ()"
-                  moduleName = "Yassir Task"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/karim/Documents/personal/Yassir%20Task/Yassir-Home-Task/Yassir-Home-Task/Features/HomeScreen/HomeViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "166"
-                  endingLineNumber = "166">
-               </Location>
-               <Location
-                  uuid = "2D5C859C-D040-4274-ABA0-66CA9E9A4236 - 4129b77ac4ef87bc"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Yassir_Task.HomeViewController.filterCharacterPerStatus(characterStatus: Swift.String) -&gt; ()"
-                  moduleName = "Yassir Task"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/karim/Documents/personal/Yassir%20Task/Yassir-Home-Task/Yassir-Home-Task/Features/HomeScreen/HomeViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "166"
-                  endingLineNumber = "166">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -124,8 +94,8 @@
             filePath = "Yassir-Home-Task/Features/HomeScreen/HomeViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "161"
-            endingLineNumber = "161"
+            startingLineNumber = "142"
+            endingLineNumber = "142"
             landmarkName = "filterCharacterPerStatus(characterStatus:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -140,8 +110,8 @@
             filePath = "Yassir-Home-Task/Features/HomeScreen/HomeViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "172"
-            endingLineNumber = "172"
+            startingLineNumber = "153"
+            endingLineNumber = "153"
             landmarkName = "clearFilterData()"
             landmarkType = "7">
          </BreakpointContent>
@@ -156,8 +126,8 @@
             filePath = "Yassir-Home-Task/Features/HomeScreen/HomeViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "146"
-            endingLineNumber = "146"
+            startingLineNumber = "127"
+            endingLineNumber = "127"
             landmarkName = "decodeJsonResult(jsonData:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -172,8 +142,8 @@
             filePath = "Yassir-Home-Task/Features/HomeScreen/HomeViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "151"
-            endingLineNumber = "151"
+            startingLineNumber = "132"
+            endingLineNumber = "132"
             landmarkName = "decodeJsonResult(jsonData:)"
             landmarkType = "7">
          </BreakpointContent>
