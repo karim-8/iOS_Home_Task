@@ -20,8 +20,10 @@ class SplashScreenViewModel {
         self.viewController = viewController
         navigateTo()
     }
-    
+
+    //MARK:- NAVIGATE TO
     func navigateTo() {
+        // Keep the animation for 2 seconds
         DispatchQueue.main.asyncAfter(deadline: .now()+2, execute: {
             self.coordinator.navigateTo(view: self.viewController)
         })

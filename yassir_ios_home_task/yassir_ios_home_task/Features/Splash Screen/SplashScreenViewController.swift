@@ -11,7 +11,7 @@ class SplashScreenViewController: UIViewController {
     
     //MARK:- PROPERTIES
     private var viewModel: SplashScreenViewModel?
-    private var coordinator = SplashScreenCoordinator()
+    private var coordinator: SplashScreenCoordinator?
 
     //MARK:- VIEW DID LOAD
     override func viewDidLoad() {
@@ -21,7 +21,8 @@ class SplashScreenViewController: UIViewController {
 
     //MARK:- SETUP VIEW
     func setupView() {
-        viewModel = SplashScreenViewModel(coordinator: coordinator, viewController: self)
+        coordinator = SplashScreenCoordinator()
+        viewModel = SplashScreenViewModel(coordinator: coordinator ?? SplashScreenCoordinator(), viewController: self)
     }
 
     //MARK:- HIDE STATUS BAR

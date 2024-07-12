@@ -38,5 +38,4 @@ class FilterCollectionViewCell: UICollectionViewCell {
         layer.cornerRadius = 15.0
         layer.masksToBounds = true
     }
-
 }

@@ -15,31 +15,32 @@ class HomeViewController: UIViewController {
 
     //MARK:- VARIABLES
     var viewModel: HomeViewModel?
-    // Filter Array By Status ["Alive","Dead","Unknown"]
+    // Filter Array By Status "Alive","Dead","Unknown"
     var filtersPerStatusArray = [String]()
-    var coordinator = HomeCoordinator()
     var currentPage = 1
     var isPaginating = false
     var shouldStopPaginating = false
     var filterCellSelectedIndex = -1
     var isFilteredAdded = false
-
-
-
-   /// Todo update
     var charactersDataInfo = [ResultsDataModel]()
-
     var FilterdCharactersDataInfo = [ResultsDataModel]()
-
     var spinner = UIActivityIndicatorView()
+    var homeUseCase: HomeUseCase?  
+    var repo: HomeRepository?
+    var coordinator = HomeCoordinator()
 
+
+    // MARK:- VIEW WILL APPEAR
+    override func viewWillAppear(_ animated: Bool) {
+        self.navigationController?.isNavigationBarHidden = false
+    }
 
     //MARK:- VIEW DID LOAD
     override func viewDidLoad() {
         navBarSetup()
         collectionViewSetup()
         characterTableViewSetup()
-        getUsersData(pageNumber: currentPage)
+        getCharactersInformation(pageNumber: currentPage)
     }
 
     //MARK:- NAVIGATION BAR SETUP
@@ -49,7 +50,6 @@ class HomeViewController: UIViewController {
 
     //MARK:- COLLECTION VIEW SETUP
     func collectionViewSetup() {
-
         //Cell Register
         filtersCollectionView.register(FilterCollectionViewCell.nib(), forCellWithReuseIdentifier: FilterCollectionViewCell.identifier)
         filtersCollectionView.delegate = self
@@ -61,105 +61,86 @@ class HomeViewController: UIViewController {
         layout.scrollDirection = .horizontal
         filtersCollectionView.showsHorizontalScrollIndicator = false
 
-
         // Spacing Between Collectioncell
         layout.minimumInteritemSpacing = 5
         layout.minimumLineSpacing = 5
     }
-
     //MARK:- CHARACTER TABLE VIEW SETUP
     func characterTableViewSetup() {
+        createSpinnerFooter()
+        homeUseCase = HomeUseCase(repository: repo ?? HomeRepository(networkClient: NetworkClient()))
+        viewModel = HomeViewModel(coordinator: coordinator,
+                                  useCase: homeUseCase!)
         charactersTableView.register(CharacterTableViewCell.nib(), forCellReuseIdentifier: CharacterTableViewCell.identifier)
         charactersTableView.separatorStyle = .none
         charactersTableView.delegate = self
         charactersTableView.dataSource = self
     }
-    // Todo:- Add more data to the current array and move the logic to View Model
-    //MARK:- GET USER DATA
-    func getUsersData(pageNumber: Int) {
+    //MARK:- GET CHARACTERS INFORMATION
+    func getCharactersInformation(pageNumber: Int) {
+        print("I have been called with page number \(pageNumber)")
+        spinner.startAnimating()
+        isPaginating = true
 
-        let parameters = "?page=\(pageNumber)"
-        let fullUrl = request(url: urlEndPoint.baseUrl.rawValue, param: parameters)
-            spinner.startAnimating()
-            isPaginating = true
+        viewModel?.getCharacterInfo(pageNumber: pageNumber)
 
-            NetworkClient().get(url: fullUrl) { [weak self] result in
-                switch result {
-                case .success(let data):
-                    print("Data from the view model is.....\(data)")
-                    self?.decodeJsonResult(jsonData: data)
-                    self?.isPaginating = false
+        DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+            _ = self.viewModel?.getCharactersData()
+            self.charactersDataInfo = self.viewModel?.getCharactersData() ?? []
+            self.FilterdCharactersDataInfo = self.charactersDataInfo
+            self.filtersPerStatusArray = self.viewModel?.getStatusTypes(charactersData: self.charactersDataInfo) ?? []
 
-                    DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
-                        self?.spinner.stopAnimating()
-                    }
-                case .failure(let error):
-                    print("Error while fetchhing data...\(error)")
-                }
+            // Todo: Seperate logic
+            DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+                self.spinner.stopAnimating()
             }
-    }
+            // Todo: Seperate logic
 
-    //MARK:- DECODE JSON RESULT
-    private func decodeJsonResult(jsonData: Data) {
-        let decoder = JSONDecoder()
-        decoder.keyDecodingStrategy = .convertFromSnakeCase
-        decoder.dateDecodingStrategy = .secondsSince1970
-
-        let userdata = try? decoder.decode(CharactersDataModel.self, from: jsonData)
-        if let data = userdata {
-
-            self.charactersDataInfo.append(contentsOf: data.results ?? [])
-            self.FilterdCharactersDataInfo =  self.charactersDataInfo
-          // Looping to get status and update them into collection view cells
-            if(!self.charactersDataInfo.isEmpty) {
-                //
-                for character in charactersDataInfo {
-                    filtersPerStatusArray.append(character.status ?? "")
+            DispatchQueue.main.async {
+                self.isPaginating = false
+                self.charactersTableView.reloadData()
+                    // Get Filter types for the first time only and reload the data as per they constant
+                if(!self.isFilteredAdded) {
+                    self.filtersCollectionView.reloadData()
+                    self.isFilteredAdded = true
                 }
-                //
-                filtersPerStatusArray = Array(Set(filtersPerStatusArray))
-                // Adding new cell to reset filters
-                filtersPerStatusArray.append("Reset")
-
-
-                DispatchQueue.main.async {
-                    self.charactersTableView.reloadData()
-                    if(!self.isFilteredAdded) {
-                        self.filtersCollectionView.reloadData()
-                        self.isFilteredAdded = true
-                    }
-                }
-
             }
         }
     }
-
-    // Todo:- Filter data based on status
-    // Todo:- Seperate in extenstion
+    //MARK:- FILTER CHARACTER PER STATUS
     func filterCharacterPerStatus(characterStatus: String) {
+        // Clear filters in view model
+       _ = viewModel?.shouldResetFilter(filterCellSelectedIndex: filterCellSelectedIndex)
 
-       // If a filter is selected before
-        if(filterCellSelectedIndex >= 0){
-            clearFilterData()
-        }
+        charactersDataInfo = viewModel?.filterByStatus(characterStatus: characterStatus) ?? []
 
-        charactersDataInfo = charactersDataInfo.filter{ $0.status == characterStatus}
         DispatchQueue.main.async {
             self.charactersTableView.reloadData()
         }
     }
-
+    //MARK:- CLEAR FILTER DATA
     func clearFilterData() {
          self.charactersDataInfo = self.FilterdCharactersDataInfo
     }
-
-    func updateMainView() {
+   // MARK:- UPDATE MAIN VIEW
+    func updateMainView(){
         DispatchQueue.main.async {
             self.charactersTableView.reloadData()
         }
     }
 
+    //MARK:- CREATE SPINNER FOOTER
+    private func createSpinnerFooter()  {
+        spinner.center = self.view.center
+        spinner.hidesWhenStopped = true
+        spinner.style = UIActivityIndicatorView.Style.medium
+        view.addSubview(spinner)
+    }
+    //MARK:- DEINIT
     deinit {
-        print("I have been called")
+        print("Home View Controller deinit Called")
+        viewModel = nil
+        homeUseCase = nil
+        repo = nil
     }
 }

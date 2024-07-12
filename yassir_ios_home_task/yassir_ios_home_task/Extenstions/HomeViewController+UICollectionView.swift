@@ -11,7 +11,6 @@ extension HomeViewController: UICollectionViewDelegate {
 
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         filtersCollectionView.deselectItem(at: indexPath, animated: true)
-        print("The  index \(indexPath.row) have been Tapped")
         shouldStopPaginating = true
         filterCellSelectedIndex = indexPath.row
         filterCharacterPerStatus(characterStatus: filtersPerStatusArray[indexPath.row])
@@ -19,7 +18,6 @@ extension HomeViewController: UICollectionViewDelegate {
         // Let the pagination back again in case user reset all filters & update the view
         if(filtersPerStatusArray[indexPath.row] == "Reset") {
             shouldStopPaginating = false
-            clearFilterData()
             updateMainView()
         }
     }
@@ -28,18 +26,11 @@ extension HomeViewController: UICollectionViewDelegate {
 extension HomeViewController: UICollectionViewDataSource {
 
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-
         let cell = filtersCollectionView.dequeueReusableCell(withReuseIdentifier: FilterCollectionViewCell.identifier, for: indexPath) as! FilterCollectionViewCell
-
         cell.configure(with: filtersPerStatusArray[indexPath.row],
                        cellIndex: indexPath.row, filterCellSelectedIndex: filterCellSelectedIndex)
-
-        //filtersPerStatusArray = Array(Set(filtersPerStatusArray))
-
-
         return cell
     }
-
 
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return filtersPerStatusArray.count
@@ -49,7 +40,6 @@ extension HomeViewController: UICollectionViewDataSource {
         return 1
     }
 }
-
 
 extension HomeViewController: UICollectionViewDelegateFlowLayout {
 

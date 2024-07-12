@@ -41,9 +41,6 @@
 		8A92209C2C409544007B3605 /* DetailedCharacterCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9220852C409544007B3605 /* DetailedCharacterCoordinator.swift */; };
 		8A92209D2C409544007B3605 /* DetailedCharacterCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9220852C409544007B3605 /* DetailedCharacterCoordinator.swift */; };
 		8A92209E2C409544007B3605 /* DetailedCharacterCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9220852C409544007B3605 /* DetailedCharacterCoordinator.swift */; };
-		8A92209F2C409544007B3605 /* DetailedCharacterUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9220862C409544007B3605 /* DetailedCharacterUseCase.swift */; };
-		8A9220A02C409544007B3605 /* DetailedCharacterUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9220862C409544007B3605 /* DetailedCharacterUseCase.swift */; };
-		8A9220A12C409544007B3605 /* DetailedCharacterUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9220862C409544007B3605 /* DetailedCharacterUseCase.swift */; };
 		8A9220A22C409544007B3605 /* DetailedCharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9220872C409544007B3605 /* DetailedCharacterView.swift */; };
 		8A9220A32C409544007B3605 /* DetailedCharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9220872C409544007B3605 /* DetailedCharacterView.swift */; };
 		8A9220A42C409544007B3605 /* DetailedCharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9220872C409544007B3605 /* DetailedCharacterView.swift */; };
@@ -98,6 +95,9 @@
 		8A9220DB2C409652007B3605 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A9220DA2C409652007B3605 /* Main.storyboard */; };
 		8A9220DC2C409652007B3605 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A9220DA2C409652007B3605 /* Main.storyboard */; };
 		8A9220DD2C409652007B3605 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A9220DA2C409652007B3605 /* Main.storyboard */; };
+		8A9220DF2C41E5D4007B3605 /* HomeViewModel+Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9220DE2C41E5D4007B3605 /* HomeViewModel+Array.swift */; };
+		8A9220E02C41E5D4007B3605 /* HomeViewModel+Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9220DE2C41E5D4007B3605 /* HomeViewModel+Array.swift */; };
+		8A9220E12C41E5D4007B3605 /* HomeViewModel+Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9220DE2C41E5D4007B3605 /* HomeViewModel+Array.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -138,7 +138,6 @@
 		8A9220792C409531007B3605 /* HomeViewController+UIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HomeViewController+UIImageView.swift"; sourceTree = "<group>"; };
 		8A92207A2C409531007B3605 /* HomeViewController+UITableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HomeViewController+UITableView.swift"; sourceTree = "<group>"; };
 		8A9220852C409544007B3605 /* DetailedCharacterCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailedCharacterCoordinator.swift; sourceTree = "<group>"; };
-		8A9220862C409544007B3605 /* DetailedCharacterUseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailedCharacterUseCase.swift; sourceTree = "<group>"; };
 		8A9220872C409544007B3605 /* DetailedCharacterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailedCharacterView.swift; sourceTree = "<group>"; };
 		8A9220882C409544007B3605 /* DetailedCharacterViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailedCharacterViewModel.swift; sourceTree = "<group>"; };
 		8A92208A2C409544007B3605 /* CharacterTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterTableViewCell.swift; sourceTree = "<group>"; };
@@ -157,6 +156,7 @@
 		8A9220CD2C409568007B3605 /* Network Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Network Helper.swift"; sourceTree = "<group>"; };
 		8A9220D52C409575007B3605 /* Network Client.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Network Client.swift"; sourceTree = "<group>"; };
 		8A9220DA2C409652007B3605 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		8A9220DE2C41E5D4007B3605 /* HomeViewModel+Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeViewModel+Array.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -285,15 +285,14 @@
 			path = Extenstions;
 			sourceTree = "<group>";
 		};
-		8A9220892C409544007B3605 /* Character Screen */ = {
+		8A9220892C409544007B3605 /* Character Details Screen */ = {
 			isa = PBXGroup;
 			children = (
 				8A9220852C409544007B3605 /* DetailedCharacterCoordinator.swift */,
-				8A9220862C409544007B3605 /* DetailedCharacterUseCase.swift */,
 				8A9220872C409544007B3605 /* DetailedCharacterView.swift */,
 				8A9220882C409544007B3605 /* DetailedCharacterViewModel.swift */,
 			);
-			path = "Character Screen";
+			path = "Character Details Screen";
 			sourceTree = "<group>";
 		};
 		8A92208C2C409544007B3605 /* CharacterTableViewCell */ = {
@@ -326,12 +325,12 @@
 		8A9220962C409544007B3605 /* HomeScreen */ = {
 			isa = PBXGroup;
 			children = (
-				8A9220902C409544007B3605 /* Cells */,
-				8A9220912C409544007B3605 /* HomeCoordinator.swift */,
-				8A9220922C409544007B3605 /* HomeRepository.swift */,
-				8A9220932C409544007B3605 /* HomeUseCase.swift */,
 				8A9220942C409544007B3605 /* HomeViewController.swift */,
 				8A9220952C409544007B3605 /* HomeViewModel.swift */,
+				8A9220932C409544007B3605 /* HomeUseCase.swift */,
+				8A9220922C409544007B3605 /* HomeRepository.swift */,
+				8A9220912C409544007B3605 /* HomeCoordinator.swift */,
+				8A9220902C409544007B3605 /* Cells */,
 			);
 			path = HomeScreen;
 			sourceTree = "<group>";
@@ -339,9 +338,9 @@
 		8A92209A2C409544007B3605 /* Splash Screen */ = {
 			isa = PBXGroup;
 			children = (
-				8A9220972C409544007B3605 /* SplashScreenCoordinator.swift */,
 				8A9220982C409544007B3605 /* SplashScreenViewController.swift */,
 				8A9220992C409544007B3605 /* SplashScreenViewModel.swift */,
+				8A9220972C409544007B3605 /* SplashScreenCoordinator.swift */,
 			);
 			path = "Splash Screen";
 			sourceTree = "<group>";
@@ -349,9 +348,9 @@
 		8A92209B2C409544007B3605 /* Features */ = {
 			isa = PBXGroup;
 			children = (
-				8A9220892C409544007B3605 /* Character Screen */,
-				8A9220962C409544007B3605 /* HomeScreen */,
 				8A92209A2C409544007B3605 /* Splash Screen */,
+				8A9220962C409544007B3605 /* HomeScreen */,
+				8A9220892C409544007B3605 /* Character Details Screen */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -361,6 +360,7 @@
 			children = (
 				8A9220CC2C409568007B3605 /* NavigationBarHelper.swift */,
 				8A9220CD2C409568007B3605 /* Network Helper.swift */,
+				8A9220DE2C41E5D4007B3605 /* HomeViewModel+Array.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -525,8 +525,8 @@
 				8A92207F2C409531007B3605 /* HomeViewController+UIImageView.swift in Sources */,
 				8A9220CF2C409568007B3605 /* NavigationBarHelper.swift in Sources */,
 				8A9220A82C409544007B3605 /* CharacterTableViewCell.swift in Sources */,
-				8A92209F2C409544007B3605 /* DetailedCharacterUseCase.swift in Sources */,
 				8A9220AE2C409544007B3605 /* FilterCollectionViewCell.swift in Sources */,
+				8A9220DF2C41E5D4007B3605 /* HomeViewModel+Array.swift in Sources */,
 				8A9220722C409515007B3605 /* OriginDataModel.swift in Sources */,
 				8A9220B42C409544007B3605 /* HomeCoordinator.swift in Sources */,
 				8A9220822C409531007B3605 /* HomeViewController+UITableView.swift in Sources */,
@@ -556,7 +556,6 @@
 				8A9220C42C409544007B3605 /* SplashScreenCoordinator.swift in Sources */,
 				8A9220C12C409544007B3605 /* HomeViewModel.swift in Sources */,
 				8A9220A92C409544007B3605 /* CharacterTableViewCell.swift in Sources */,
-				8A9220A02C409544007B3605 /* DetailedCharacterUseCase.swift in Sources */,
 				8A9220A32C409544007B3605 /* DetailedCharacterView.swift in Sources */,
 				8A9220462C409273007B3605 /* yassir_ios_home_taskTests.swift in Sources */,
 				8A9220A62C409544007B3605 /* DetailedCharacterViewModel.swift in Sources */,
@@ -572,6 +571,7 @@
 				8A9220B52C409544007B3605 /* HomeCoordinator.swift in Sources */,
 				8A9220802C409531007B3605 /* HomeViewController+UIImageView.swift in Sources */,
 				8A92206A2C409515007B3605 /* CharactersDataModel.swift in Sources */,
+				8A9220E02C41E5D4007B3605 /* HomeViewModel+Array.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -588,12 +588,12 @@
 				8A9220772C409515007B3605 /* ResultsDataModel.swift in Sources */,
 				8A9220712C409515007B3605 /* LocationDataModel.swift in Sources */,
 				8A9220D12C409568007B3605 /* NavigationBarHelper.swift in Sources */,
-				8A9220A12C409544007B3605 /* DetailedCharacterUseCase.swift in Sources */,
 				8A9220C52C409544007B3605 /* SplashScreenCoordinator.swift in Sources */,
 				8A9220B02C409544007B3605 /* FilterCollectionViewCell.swift in Sources */,
 				8A92206B2C409515007B3605 /* CharactersDataModel.swift in Sources */,
 				8A9220842C409531007B3605 /* HomeViewController+UITableView.swift in Sources */,
 				8A92206E2C409515007B3605 /* InfoDataModel.swift in Sources */,
+				8A9220E12C41E5D4007B3605 /* HomeViewModel+Array.swift in Sources */,
 				8A92207E2C409531007B3605 /* HomeViewController+UICollectionView.swift in Sources */,
 				8A9220502C409273007B3605 /* yassir_ios_home_taskUITests.swift in Sources */,
 				8A9220D92C409576007B3605 /* Network Client.swift in Sources */,

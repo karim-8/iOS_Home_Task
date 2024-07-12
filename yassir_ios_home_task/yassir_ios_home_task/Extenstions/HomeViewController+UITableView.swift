@@ -46,12 +46,10 @@ extension HomeViewController: UITableViewDataSource {
 extension HomeViewController: UITableViewDelegate {
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        print("Cell Index which tapped is ..... \(indexPath.row)")
         // Navigate to Detailed Character View
         coordinator.navigateTo(navigation: navigationController ?? UINavigationController(),
                                dataPerCharacter: charactersDataInfo[indexPath.row])
     }
-
 }
 
 extension HomeViewController: UIScrollViewDelegate {
@@ -59,24 +57,16 @@ extension HomeViewController: UIScrollViewDelegate {
         let position = scrollView.contentOffset.y
         if position > (charactersTableView.contentSize.height-100-scrollView.frame.size.height) {
             if(isPaginating == true) {
+                print("No I will not fetch")
                 return
             }else {
-                createSpinnerFooter()
-                // Fetch more data from the api
-                print("I'm going to fetch more")
-                currentPage+=1
-                // Stop paginating data in case user is filtering the current data
-                (shouldStopPaginating == true) ? nil : getUsersData(pageNumber: currentPage)
-
+                // Fetch more data from the api if user not filtering data
+                if(!shouldStopPaginating == true) {
+                    print("I'm going to fetch more")
+                    currentPage+=1
+                    getCharactersInformation(pageNumber: currentPage)
+                }
             }
         }
-    }
-
-    //MARK:- CREATE SPINNER FOOTER
-    private func createSpinnerFooter()  {
-            spinner.center = self.view.center
-            spinner.hidesWhenStopped = true
-            spinner.style = UIActivityIndicatorView.Style.medium
-            view.addSubview(spinner)
     }
 }

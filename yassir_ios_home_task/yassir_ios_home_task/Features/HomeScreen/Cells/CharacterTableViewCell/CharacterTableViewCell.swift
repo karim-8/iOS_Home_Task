@@ -15,7 +15,6 @@ class CharacterTableViewCell: UITableViewCell {
     @IBOutlet weak var characterBackgroundView: UIView!
 
     var cellIndexValue = 0
-
     static var identifier = "CharacterTableViewCell"
 
     override func awakeFromNib() {
@@ -65,7 +64,6 @@ class CharacterTableViewCell: UITableViewCell {
         characterDescription.text = imageType
         cellIndexValue = cellIndex
 
-        print("cel index is....\(cellIndex)")
         if( cellIndexValue == 4) {
             characterBackgroundView.backgroundColor =
             UIColor(red: 235/255.0, green: 246/255.0, blue: 251/255.0, alpha: 1)

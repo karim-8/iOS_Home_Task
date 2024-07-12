@@ -23,6 +23,5 @@ class CharacterDetailedObject: ObservableObject {
 
     init(dataObject: ResultsDataModel) {
         self.dataPerCharacter = dataObject
-        print("Single Character data is... \(self.dataPerCharacter)")
     }
 }
