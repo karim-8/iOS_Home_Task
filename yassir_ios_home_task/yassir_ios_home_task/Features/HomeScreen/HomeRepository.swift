@@ -53,3 +53,21 @@ class HomeRepository: HomeRepositoryProtocol {
         }
     }
 }
+
+// Mock implementation of HomeRepository for testing purposes
+class MockHomeRepository: HomeRepository {
+
+    var shouldSucceed: Bool = true // Simulate success or failure
+
+    func fetchData(from request: RequestProtocol, completion: @escaping (Result<Data, Error>) -> Void) {
+        if shouldSucceed {
+                // Simulate successful response with dummy data
+            let dummyData = Data()
+            completion(.success(dummyData))
+        } else {
+                // Simulate failure with dummy error
+            let error = NSError(domain: "MockErrorDomain", code: 0, userInfo: nil)
+            completion(.failure(error))
+        }
+    }
+}
