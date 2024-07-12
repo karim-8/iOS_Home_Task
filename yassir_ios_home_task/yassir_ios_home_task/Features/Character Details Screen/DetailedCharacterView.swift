@@ -14,13 +14,14 @@ struct ContentView: View {
     // MARK:- VARIABLES
     @EnvironmentObject private var characterDetails: CharacterDetailedObject
     @Environment(\.presentationMode) var presentationMode
+    let viewModel = DetailedCharacterViewModel()
 
     var body: some View {
             NavigationView {
                 VStack{
                     // Vstack contains the image and the back button
                     VStack {
-                        AsyncImage(url: URL(string: characterDetails.dataPerCharacter.image!)) { image in
+                        AsyncImage(url: URL(string: viewModel.getImageUrl(dataObj: characterDetails))) { image in
                             image.resizable()
                         } placeholder: {
                             Image("yassir_logo")
@@ -32,7 +33,7 @@ struct ContentView: View {
                             .edgesIgnoringSafeArea(.all)
                         Button(action: {
                             // Back to the home main screen
-                            presentationMode.wrappedValue.dismiss()
+                            viewModel.popBackToHomeScreen(presentationMode: presentationMode)
                         }) {
                             HStack {
                                 Image(systemName: "arrow.backward")
@@ -44,7 +45,7 @@ struct ContentView: View {
                                     .padding(.leading, 5)
                             }
                         }
-                        .padding(.top, 10)
+                        .padding(.top, 20)
                         .padding(.leading, 5)
                         .offset(y: -400)
                         .frame(maxWidth: .infinity, alignment: .leading)
@@ -64,17 +65,17 @@ struct ContentView: View {
                     HStack {
                         VStack(alignment: .leading) {
                             HStack{
-                                Text(characterDetails.dataPerCharacter.name ?? "Yassir")
+                                Text(viewModel.getCharacterName(dataObj: characterDetails))
                                     .font(.system(size: 20)).bold()
                                 Spacer()
-                                CircleInRectangleTextView(text: characterDetails.dataPerCharacter.status ?? "Status").padding([.trailing], 20)
+                                CircleInRectangleTextView(text: viewModel.getCharacterStatus(dataObj: characterDetails)).padding([.trailing], 20)
                             }
                             HStack {
-                                Text(characterDetails.dataPerCharacter.species ?? "Elf")
+                                Text(viewModel.getCharacterSpecies(dataObj: characterDetails))
                                     .font(.system(size: 16))
                                     .foregroundColor(Color(red: 90/255.0, green: 90/255.0, blue: 90/255.0))
 
-                                Text(".  \(characterDetails.dataPerCharacter.gender ?? ".  Male")")
+                                Text(viewModel.getCharacterGender(dataObj: characterDetails))
                                     .font(.system(size: 16))
                                     .foregroundColor(.gray)
                             }
@@ -99,23 +100,5 @@ struct ContentView: View {
             .navigationBarHidden(true)
             .statusBar(hidden: false)
             .edgesIgnoringSafeArea(.all)
-    }
-}
-
-
-// MARK:- CIRCLE RECTANGLE TEXT VIEW
-struct CircleInRectangleTextView: View {
-    let text: String
-    var body: some View {
-        ZStack {
-            Rectangle()
-                .fill(Color(red: 97/255.0, green: 203/255.0, blue: 244/255.0))
-                .frame(width: 60, height: 25)
-                .cornerRadius(30)
-                .overlay(
-                    Text(text)
-                        .foregroundColor(.black).font(.system(size: 12))
-            )
-        }
     }
 }

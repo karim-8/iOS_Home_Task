@@ -56,13 +56,12 @@ extension HomeViewController: UIScrollViewDelegate {
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
         let position = scrollView.contentOffset.y
         if position > (charactersTableView.contentSize.height-100-scrollView.frame.size.height) {
+            // Don't fetch while pagination is running
             if(isPaginating == true) {
-                print("No I will not fetch")
                 return
             }else {
                 // Fetch more data from the api if user not filtering data
                 if(!shouldStopPaginating == true) {
-                    print("I'm going to fetch more")
                     currentPage+=1
                     getCharactersInformation(pageNumber: currentPage)
                 }

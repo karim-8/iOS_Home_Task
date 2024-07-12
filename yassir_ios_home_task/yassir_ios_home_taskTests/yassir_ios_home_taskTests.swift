@@ -63,7 +63,7 @@ class HomeUseCaseTests: XCTestCase {
             switch result {
             case .success(let charactersData):
                 XCTAssertNil(charactersData.results)
-            case .failure(let error):
+            case .failure(_):
                 XCTFail("Expected success but got failure")
             }
         }

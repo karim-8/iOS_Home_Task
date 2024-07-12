@@ -18,36 +18,6 @@
             endingLineNumber = "113"
             landmarkName = "filterCharacterPerStatus(characterStatus:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "665CEFED-7866-4BF3-9F67-54C1B97598F7 - 2c47a8ec17be7e05"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "yassir_ios_home_task.HomeViewController.filterCharacterPerStatus(characterStatus: Swift.String) -&gt; ()"
-                  moduleName = "yassir_ios_home_task"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/karim/Documents/personal/Yassir_Home_Task/Yassir_Home_Task/yassir_ios_home_task/yassir_ios_home_task/Features/HomeScreen/HomeViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "113"
-                  endingLineNumber = "113">
-               </Location>
-               <Location
-                  uuid = "665CEFED-7866-4BF3-9F67-54C1B97598F7 - d1a35aefd1947294"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "yassir_ios_home_taskTests.HomeViewController.filterCharacterPerStatus(characterStatus: Swift.String) -&gt; ()"
-                  moduleName = "yassir_ios_home_taskTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/karim/Documents/personal/Yassir_Home_Task/Yassir_Home_Task/yassir_ios_home_task/yassir_ios_home_task/Features/HomeScreen/HomeViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "113"
-                  endingLineNumber = "113">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -64,36 +34,6 @@
             endingLineNumber = "115"
             landmarkName = "filterCharacterPerStatus(characterStatus:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "3814E796-8A4F-4017-80AE-3A92EC64A9F9 - 2c47a8ec17be7e47"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "yassir_ios_home_task.HomeViewController.filterCharacterPerStatus(characterStatus: Swift.String) -&gt; ()"
-                  moduleName = "yassir_ios_home_task"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/karim/Documents/personal/Yassir_Home_Task/Yassir_Home_Task/yassir_ios_home_task/yassir_ios_home_task/Features/HomeScreen/HomeViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "115"
-                  endingLineNumber = "115">
-               </Location>
-               <Location
-                  uuid = "3814E796-8A4F-4017-80AE-3A92EC64A9F9 - d1a35aefd19472d6"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "yassir_ios_home_taskTests.HomeViewController.filterCharacterPerStatus(characterStatus: Swift.String) -&gt; ()"
-                  moduleName = "yassir_ios_home_taskTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/karim/Documents/personal/Yassir_Home_Task/Yassir_Home_Task/yassir_ios_home_task/yassir_ios_home_task/Features/HomeScreen/HomeViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "115"
-                  endingLineNumber = "115">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -110,36 +50,6 @@
             endingLineNumber = "123"
             landmarkName = "clearFilterData()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "02034318-3BD8-4F71-815D-7D75EBCA0BD2 - 37c19eb14f82c566"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "yassir_ios_home_task.HomeViewController.clearFilterData() -&gt; ()"
-                  moduleName = "yassir_ios_home_task"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/karim/Documents/personal/Yassir_Home_Task/Yassir_Home_Task/yassir_ios_home_task/yassir_ios_home_task/Features/HomeScreen/HomeViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "123"
-                  endingLineNumber = "123">
-               </Location>
-               <Location
-                  uuid = "02034318-3BD8-4F71-815D-7D75EBCA0BD2 - bba8a4cb110eff86"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "yassir_ios_home_taskTests.HomeViewController.clearFilterData() -&gt; ()"
-                  moduleName = "yassir_ios_home_taskTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/karim/Documents/personal/Yassir_Home_Task/Yassir_Home_Task/yassir_ios_home_task/yassir_ios_home_task/Features/HomeScreen/HomeViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "123"
-                  endingLineNumber = "123">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -156,64 +66,6 @@
             endingLineNumber = "127"
             landmarkName = "updateMainView()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "48553BB7-FA13-4B55-98AB-6906D88D3AC8 - 8acb6ca1d67a91a5"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "yassir_ios_home_task.HomeViewController.updateMainView() -&gt; ()"
-                  moduleName = "yassir_ios_home_task"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/karim/Documents/personal/Yassir_Home_Task/Yassir_Home_Task/yassir_ios_home_task/yassir_ios_home_task/Features/HomeScreen/HomeViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "127"
-                  endingLineNumber = "127">
-               </Location>
-               <Location
-                  uuid = "48553BB7-FA13-4B55-98AB-6906D88D3AC8 - da6721442877c8d6"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in yassir_ios_home_task.HomeViewController.updateMainView() -&gt; ()"
-                  moduleName = "yassir_ios_home_task"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/karim/Documents/personal/Yassir_Home_Task/Yassir_Home_Task/yassir_ios_home_task/yassir_ios_home_task/Features/HomeScreen/HomeViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "127"
-                  endingLineNumber = "127">
-               </Location>
-               <Location
-                  uuid = "48553BB7-FA13-4B55-98AB-6906D88D3AC8 - 6b9d9db6ec8007fd"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "yassir_ios_home_taskTests.HomeViewController.updateMainView() -&gt; ()"
-                  moduleName = "yassir_ios_home_taskTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/karim/Documents/personal/Yassir_Home_Task/Yassir_Home_Task/yassir_ios_home_task/yassir_ios_home_task/Features/HomeScreen/HomeViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "127"
-                  endingLineNumber = "127">
-               </Location>
-               <Location
-                  uuid = "48553BB7-FA13-4B55-98AB-6906D88D3AC8 - 25b804ea5d699501"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in yassir_ios_home_taskTests.HomeViewController.updateMainView() -&gt; ()"
-                  moduleName = "yassir_ios_home_taskTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/karim/Documents/personal/Yassir_Home_Task/Yassir_Home_Task/yassir_ios_home_task/yassir_ios_home_task/Features/HomeScreen/HomeViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "127"
-                  endingLineNumber = "127">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -230,36 +82,6 @@
             endingLineNumber = "50"
             landmarkName = "tableView(_:didSelectRowAt:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "E32BFDAD-7EF4-40E0-B580-85972F701F26 - c46437156f96fc7d"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "yassir_ios_home_task.HomeViewController.tableView(_: __C.UITableView, didSelectRowAt: Foundation.IndexPath) -&gt; ()"
-                  moduleName = "yassir_ios_home_task"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/karim/Documents/personal/Yassir_Home_Task/Yassir_Home_Task/yassir_ios_home_task/yassir_ios_home_task/Extenstions/HomeViewController+UITableView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "50"
-                  endingLineNumber = "50">
-               </Location>
-               <Location
-                  uuid = "E32BFDAD-7EF4-40E0-B580-85972F701F26 - ed886c2c31d015b2"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "yassir_ios_home_taskTests.HomeViewController.tableView(_: __C.UITableView, didSelectRowAt: Foundation.IndexPath) -&gt; ()"
-                  moduleName = "yassir_ios_home_taskTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/karim/Documents/personal/Yassir_Home_Task/Yassir_Home_Task/yassir_ios_home_task/yassir_ios_home_task/Extenstions/HomeViewController+UITableView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "50"
-                  endingLineNumber = "50">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -276,36 +98,6 @@
             endingLineNumber = "118"
             landmarkName = "filterCharacterPerStatus(characterStatus:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "C6728896-AFB9-4BFB-9EF6-7BA81BD031BD - 72d7e182142c5af7"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in yassir_ios_home_task.HomeViewController.filterCharacterPerStatus(characterStatus: Swift.String) -&gt; ()"
-                  moduleName = "yassir_ios_home_task"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/karim/Documents/personal/Yassir_Home_Task/Yassir_Home_Task/yassir_ios_home_task/yassir_ios_home_task/Features/HomeScreen/HomeViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "118"
-                  endingLineNumber = "118">
-               </Location>
-               <Location
-                  uuid = "C6728896-AFB9-4BFB-9EF6-7BA81BD031BD - b237352d80f8fd76"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in yassir_ios_home_taskTests.HomeViewController.filterCharacterPerStatus(characterStatus: Swift.String) -&gt; ()"
-                  moduleName = "yassir_ios_home_taskTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/karim/Documents/personal/Yassir_Home_Task/Yassir_Home_Task/yassir_ios_home_task/yassir_ios_home_task/Features/HomeScreen/HomeViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "118"
-                  endingLineNumber = "118">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -322,36 +114,6 @@
             endingLineNumber = "16"
             landmarkName = "collectionView(_:didSelectItemAt:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "6EA82558-FDB0-4766-95D4-4B806E584121 - ef098c601cec2ae1"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "yassir_ios_home_task.HomeViewController.collectionView(_: __C.UICollectionView, didSelectItemAt: Foundation.IndexPath) -&gt; ()"
-                  moduleName = "yassir_ios_home_task"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/karim/Documents/personal/Yassir_Home_Task/Yassir_Home_Task/yassir_ios_home_task/yassir_ios_home_task/Extenstions/HomeViewController+UICollectionView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "16"
-                  endingLineNumber = "16">
-               </Location>
-               <Location
-                  uuid = "6EA82558-FDB0-4766-95D4-4B806E584121 - ff883496f157d33c"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "yassir_ios_home_taskTests.HomeViewController.collectionView(_: __C.UICollectionView, didSelectItemAt: Foundation.IndexPath) -&gt; ()"
-                  moduleName = "yassir_ios_home_taskTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/karim/Documents/personal/Yassir_Home_Task/Yassir_Home_Task/yassir_ios_home_task/yassir_ios_home_task/Extenstions/HomeViewController+UICollectionView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "16"
-                  endingLineNumber = "16">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -368,36 +130,6 @@
             endingLineNumber = "67"
             landmarkName = "shouldResetFilter(filterCellSelectedIndex:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "C9080581-707D-4F30-A25A-24FFD2F8E197 - f443bff9fdff8ed5"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "yassir_ios_home_task.HomeViewModel.shouldResetFilter(filterCellSelectedIndex: Swift.Int) -&gt; Swift.Array&lt;yassir_ios_home_task.ResultsDataModel&gt;"
-                  moduleName = "yassir_ios_home_task"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/karim/Documents/personal/Yassir_Home_Task/Yassir_Home_Task/yassir_ios_home_task/yassir_ios_home_task/Features/HomeScreen/HomeViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "67"
-                  endingLineNumber = "67">
-               </Location>
-               <Location
-                  uuid = "C9080581-707D-4F30-A25A-24FFD2F8E197 - dd44113ccff9de06"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "yassir_ios_home_taskTests.HomeViewModel.shouldResetFilter(filterCellSelectedIndex: Swift.Int) -&gt; Swift.Array&lt;yassir_ios_home_taskTests.ResultsDataModel&gt;"
-                  moduleName = "yassir_ios_home_taskTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/karim/Documents/personal/Yassir_Home_Task/Yassir_Home_Task/yassir_ios_home_task/yassir_ios_home_task/Features/HomeScreen/HomeViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "67"
-                  endingLineNumber = "67">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -414,36 +146,6 @@
             endingLineNumber = "72"
             landmarkName = "clearFilterData()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "4BDF04B8-8834-412B-A51A-10A37E79F99E - 78246aaadb16caff"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "yassir_ios_home_task.HomeViewModel.clearFilterData() -&gt; Swift.Array&lt;yassir_ios_home_task.ResultsDataModel&gt;"
-                  moduleName = "yassir_ios_home_task"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/karim/Documents/personal/Yassir_Home_Task/Yassir_Home_Task/yassir_ios_home_task/yassir_ios_home_task/Features/HomeScreen/HomeViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "72"
-                  endingLineNumber = "72">
-               </Location>
-               <Location
-                  uuid = "4BDF04B8-8834-412B-A51A-10A37E79F99E - eceda38f41a92c3a"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "yassir_ios_home_taskTests.HomeViewModel.clearFilterData() -&gt; Swift.Array&lt;yassir_ios_home_taskTests.ResultsDataModel&gt;"
-                  moduleName = "yassir_ios_home_taskTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/karim/Documents/personal/Yassir_Home_Task/Yassir_Home_Task/yassir_ios_home_task/yassir_ios_home_task/Features/HomeScreen/HomeViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "72"
-                  endingLineNumber = "72">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -460,36 +162,6 @@
             endingLineNumber = "63"
             landmarkName = "filterByStatus(characterStatus:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "71B1712D-E42F-4322-B679-A2247398F7C5 - e5985299d85f0e9f"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "yassir_ios_home_task.HomeViewModel.filterByStatus(characterStatus: Swift.String) -&gt; Swift.Array&lt;yassir_ios_home_task.ResultsDataModel&gt;"
-                  moduleName = "yassir_ios_home_task"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/karim/Documents/personal/Yassir_Home_Task/Yassir_Home_Task/yassir_ios_home_task/yassir_ios_home_task/Features/HomeScreen/HomeViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "63"
-                  endingLineNumber = "63">
-               </Location>
-               <Location
-                  uuid = "71B1712D-E42F-4322-B679-A2247398F7C5 - 65e8c80ddb08c208"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "yassir_ios_home_taskTests.HomeViewModel.filterByStatus(characterStatus: Swift.String) -&gt; Swift.Array&lt;yassir_ios_home_taskTests.ResultsDataModel&gt;"
-                  moduleName = "yassir_ios_home_taskTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/karim/Documents/personal/Yassir_Home_Task/Yassir_Home_Task/yassir_ios_home_task/yassir_ios_home_task/Features/HomeScreen/HomeViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "63"
-                  endingLineNumber = "63">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -506,64 +178,6 @@
             endingLineNumber = "117"
             landmarkName = "filterCharacterPerStatus(characterStatus:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "4BDFD8CD-DE74-4610-A852-DED7D7BAF01E - 2c47a8ec17be7e81"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "yassir_ios_home_task.HomeViewController.filterCharacterPerStatus(characterStatus: Swift.String) -&gt; ()"
-                  moduleName = "yassir_ios_home_task"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/karim/Documents/personal/Yassir_Home_Task/Yassir_Home_Task/yassir_ios_home_task/yassir_ios_home_task/Features/HomeScreen/HomeViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "117"
-                  endingLineNumber = "117">
-               </Location>
-               <Location
-                  uuid = "4BDFD8CD-DE74-4610-A852-DED7D7BAF01E - 72d7e182142c5ad4"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in yassir_ios_home_task.HomeViewController.filterCharacterPerStatus(characterStatus: Swift.String) -&gt; ()"
-                  moduleName = "yassir_ios_home_task"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/karim/Documents/personal/Yassir_Home_Task/Yassir_Home_Task/yassir_ios_home_task/yassir_ios_home_task/Features/HomeScreen/HomeViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "117"
-                  endingLineNumber = "117">
-               </Location>
-               <Location
-                  uuid = "4BDFD8CD-DE74-4610-A852-DED7D7BAF01E - d1a35aefd1947210"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "yassir_ios_home_taskTests.HomeViewController.filterCharacterPerStatus(characterStatus: Swift.String) -&gt; ()"
-                  moduleName = "yassir_ios_home_taskTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/karim/Documents/personal/Yassir_Home_Task/Yassir_Home_Task/yassir_ios_home_task/yassir_ios_home_task/Features/HomeScreen/HomeViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "117"
-                  endingLineNumber = "117">
-               </Location>
-               <Location
-                  uuid = "4BDFD8CD-DE74-4610-A852-DED7D7BAF01E - b237352d80f8fd55"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in yassir_ios_home_taskTests.HomeViewController.filterCharacterPerStatus(characterStatus: Swift.String) -&gt; ()"
-                  moduleName = "yassir_ios_home_taskTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/karim/Documents/personal/Yassir_Home_Task/Yassir_Home_Task/yassir_ios_home_task/yassir_ios_home_task/Features/HomeScreen/HomeViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "117"
-                  endingLineNumber = "117">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -580,36 +194,6 @@
             endingLineNumber = "36"
             landmarkName = "getCharacterInfo(pageNumber:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "104761E6-F3FE-4E30-9D7B-558D5CD30A9F - cf5958a2250df892"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Result&lt;yassir_ios_home_task.CharactersDataModel, Swift.Error&gt;) -&gt; () in yassir_ios_home_task.HomeViewModel.getCharacterInfo(pageNumber: Swift.Int) -&gt; ()"
-                  moduleName = "yassir_ios_home_task"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/karim/Documents/personal/Yassir_Home_Task/Yassir_Home_Task/yassir_ios_home_task/yassir_ios_home_task/Features/HomeScreen/HomeViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "36"
-                  endingLineNumber = "36">
-               </Location>
-               <Location
-                  uuid = "104761E6-F3FE-4E30-9D7B-558D5CD30A9F - dff981201e708964"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Result&lt;yassir_ios_home_taskTests.CharactersDataModel, Swift.Error&gt;) -&gt; () in yassir_ios_home_taskTests.HomeViewModel.getCharacterInfo(pageNumber: Swift.Int) -&gt; ()"
-                  moduleName = "yassir_ios_home_taskTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/karim/Documents/personal/Yassir_Home_Task/Yassir_Home_Task/yassir_ios_home_task/yassir_ios_home_task/Features/HomeScreen/HomeViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "36"
-                  endingLineNumber = "36">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -626,36 +210,6 @@
             endingLineNumber = "49"
             landmarkName = "getFilteredStatusData()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "A28AA8B4-2C3D-4E29-A32D-887DCEB40917 - 75cc143195c8602a"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "yassir_ios_home_task.HomeViewModel.getFilteredStatusData() -&gt; Swift.Array&lt;yassir_ios_home_task.ResultsDataModel&gt;"
-                  moduleName = "yassir_ios_home_task"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/karim/Documents/personal/Yassir_Home_Task/Yassir_Home_Task/yassir_ios_home_task/yassir_ios_home_task/Features/HomeScreen/HomeViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "49"
-                  endingLineNumber = "49">
-               </Location>
-               <Location
-                  uuid = "A28AA8B4-2C3D-4E29-A32D-887DCEB40917 - c5cd38f567d70ef"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "yassir_ios_home_taskTests.HomeViewModel.getFilteredStatusData() -&gt; Swift.Array&lt;yassir_ios_home_taskTests.ResultsDataModel&gt;"
-                  moduleName = "yassir_ios_home_taskTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/karim/Documents/personal/Yassir_Home_Task/Yassir_Home_Task/yassir_ios_home_task/yassir_ios_home_task/Features/HomeScreen/HomeViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "49"
-                  endingLineNumber = "49">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -672,36 +226,6 @@
             endingLineNumber = "60"
             landmarkName = "filterByStatus(characterStatus:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "6F61227D-0173-4D65-9428-4FB40F62866F - e5985299d85f0f3a"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "yassir_ios_home_task.HomeViewModel.filterByStatus(characterStatus: Swift.String) -&gt; Swift.Array&lt;yassir_ios_home_task.ResultsDataModel&gt;"
-                  moduleName = "yassir_ios_home_task"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/karim/Documents/personal/Yassir_Home_Task/Yassir_Home_Task/yassir_ios_home_task/yassir_ios_home_task/Features/HomeScreen/HomeViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "60"
-                  endingLineNumber = "60">
-               </Location>
-               <Location
-                  uuid = "6F61227D-0173-4D65-9428-4FB40F62866F - 65e8c80ddb08c3ad"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "yassir_ios_home_taskTests.HomeViewModel.filterByStatus(characterStatus: Swift.String) -&gt; Swift.Array&lt;yassir_ios_home_taskTests.ResultsDataModel&gt;"
-                  moduleName = "yassir_ios_home_taskTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/karim/Documents/personal/Yassir_Home_Task/Yassir_Home_Task/yassir_ios_home_task/yassir_ios_home_task/Features/HomeScreen/HomeViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "60"
-                  endingLineNumber = "60">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -718,36 +242,6 @@
             endingLineNumber = "58"
             landmarkName = "filterByStatus(characterStatus:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "2472EB38-2825-465D-B34C-48B0A15C6210 - e5985299d85f0ff8"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "yassir_ios_home_task.HomeViewModel.filterByStatus(characterStatus: Swift.String) -&gt; Swift.Array&lt;yassir_ios_home_task.ResultsDataModel&gt;"
-                  moduleName = "yassir_ios_home_task"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/karim/Documents/personal/Yassir_Home_Task/Yassir_Home_Task/yassir_ios_home_task/yassir_ios_home_task/Features/HomeScreen/HomeViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "58"
-                  endingLineNumber = "58">
-               </Location>
-               <Location
-                  uuid = "2472EB38-2825-465D-B34C-48B0A15C6210 - 65e8c80ddb08c36f"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "yassir_ios_home_taskTests.HomeViewModel.filterByStatus(characterStatus: Swift.String) -&gt; Swift.Array&lt;yassir_ios_home_taskTests.ResultsDataModel&gt;"
-                  moduleName = "yassir_ios_home_taskTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/karim/Documents/personal/Yassir_Home_Task/Yassir_Home_Task/yassir_ios_home_task/yassir_ios_home_task/Features/HomeScreen/HomeViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "58"
-                  endingLineNumber = "58">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
