@@ -37,8 +37,11 @@ Both are added in a simple form to try to cover the happy and the worst scenrios
 
 - Time was the greatest challenge as i wanted to provide more View Binding Techinques like "RX-Swift" or "Combine" and adding more patterns like "VIPER" but wasn't able to catch the time frame, as well wasn't able to do the Integration test which will be a nice thing to have.
 
+
 #App Screen Shots
+
 ![Screenshot 2024-07-13 at 3 27 20 AM](https://github.com/user-attachments/assets/e9f21734-9c1f-419b-8a11-06307ccebdb0)
+
 ![Screenshot 2024-07-13 at 3 27 56 AM](https://github.com/user-attachments/assets/bee52a98-37bc-47c7-a61f-4b1cb53a9d11)
 
 
