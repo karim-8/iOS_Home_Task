@@ -40,8 +40,10 @@ Both are added in a simple form to try to cover the happy and the worst scenrios
 
 #App Screen Shots
 
-![Screenshot 2024-07-13 at 3 27 20 AM](https://github.com/user-attachments/assets/e9f21734-9c1f-419b-8a11-06307ccebdb0)
+![simulator_screenshot_6B84AE55-90E5-467B-BC4E-A082FCD046F3](https://github.com/user-attachments/assets/05216f8f-ff9c-43a9-94b5-5a5af8778855)
 
-![Screenshot 2024-07-13 at 3 27 56 AM](https://github.com/user-attachments/assets/bee52a98-37bc-47c7-a61f-4b1cb53a9d11)
+
+![simulator_screenshot_0013081D-5BBD-45D4-BD3B-D9641D98BA75](https://github.com/user-attachments/assets/a8075810-e436-41df-9251-e7ccb16b7807)
+
 
 
